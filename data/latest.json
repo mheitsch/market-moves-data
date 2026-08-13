@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-13T12:40:23.554Z",
+  "username": "MrMagoon",
+  "userId": null,
+  "ytd": 92.57,
+  "ytdFormatted": "92.57%",
+  "positionCount": 0,
+  "tickers": [],
+  "positions": [],
+  "diagnostics": {
+    "/users/search?query=MrMagoon": 404,
+    "/trading/portfolio": 404,
+    "/user-info/people/MrMagoon/gain": 200
+  }
+}
