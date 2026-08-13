@@ -6,12 +6,16 @@
  * eToro public API, and writes data/latest.json which the daily Cowork task
  * reads via raw.githubusercontent.com.
  *
+ * Verified working endpoints (2026-08-13):
+ *   GET /user-info/people/{username}/gain          -> yearly gains, YTD
+ *   GET /user-info/people/{username}/portfolio/live -> positions (instrumentId + investmentPct)
+ *   GET /market-data/instruments?instrumentIds=... -> instrumentId -> symbolFull
+ *
  * Required env (GitHub Actions secrets):
  *   ETORO_API_KEY   -> x-api-key
  *   ETORO_USER_KEY  -> x-user-key
  * Optional env:
  *   ETORO_USERNAME  (default "MrMagoon")
- *   ETORO_USER_ID   (numeric CID; resolved automatically if omitted)
  *   INCLUDE_RAW=1   (also write data/raw.json - keep off on a public repo)
  */
 
@@ -31,7 +35,7 @@ if (!API_KEY || !USER_KEY) {
 const diagnostics = {};
 
 async function get(path) {
-  const url = path.startsWith("http") ? path : BASE + path;
+  const url = BASE + path;
   try {
     const res = await fetch(url, {
       headers: {
@@ -46,116 +50,96 @@ async function get(path) {
     try {
       json = JSON.parse(text);
     } catch {}
-    diagnostics[path] = res.status;
-    console.log(`${res.status}  ${path}`);
-    return { status: res.status, json, text };
+    diagnostics[path.split("?")[0]] = res.status;
+    console.log(`${res.status}  ${path.slice(0, 90)}`);
+    return { status: res.status, json };
   } catch (err) {
-    diagnostics[path] = `ERR ${err.message}`;
+    diagnostics[path.split("?")[0]] = `ERR ${err.message}`;
     console.log(`ERR   ${path}  ${err.message}`);
-    return { status: 0, json: null, text: "" };
+    return { status: 0, json: null };
   }
 }
 
-/** Walk any JSON shape and collect the first array of objects that look like positions. */
-function findPositions(node, depth = 0) {
-  if (!node || depth > 6) return null;
-  if (Array.isArray(node)) {
-    const hit = node.filter(
-      (x) =>
-        x &&
-        typeof x === "object" &&
-        (x.symbol || x.ticker || x.symbolFull || x.instrumentDisplayName || x.displayName)
-    );
-    if (hit.length >= 3) return hit;
-    for (const child of node) {
-      const found = findPositions(child, depth + 1);
-      if (found) return found;
-    }
-    return null;
-  }
-  if (typeof node === "object") {
-    for (const key of Object.keys(node)) {
-      const found = findPositions(node[key], depth + 1);
-      if (found) return found;
-    }
-  }
-  return null;
-}
+const U = encodeURIComponent(USERNAME);
 
-function normalisePositions(rows) {
-  if (!rows) return [];
-  return rows
-    .map((r) => ({
-      ticker: String(
-        r.symbol || r.ticker || r.symbolFull || r.instrumentSymbol || ""
-      ).toUpperCase(),
-      name: r.instrumentDisplayName || r.displayName || r.name || "",
-      investedPct:
-        r.invested ?? r.investedPct ?? r.investmentPct ?? r.allocation ?? null,
-    }))
-    .filter((r) => r.ticker)
-    .sort((a, b) => (b.investedPct ?? 0) - (a.investedPct ?? 0));
-}
+// ---------------------------------------------------------------- YTD
+const gain = await get(`/user-info/people/${U}/gain`);
 
-/** The legacy /user-info/people/{user}/gain shape used by the old n8n workflow. */
-function ytdFromLegacyGain(json) {
+function ytdFrom(json) {
   const year = String(new Date().getUTCFullYear());
   const yearly = json?.yearly || json?.data?.yearly;
   if (!Array.isArray(yearly)) return null;
   const row = yearly.find((v) => String(v.timestamp || "").slice(0, 4) === year);
   return row?.gain ?? null;
 }
+const ytd = ytdFrom(gain.json);
 
-/** Fallback: sum monthly gains compounded, or read an explicit ytd field. */
-function ytdFromAnywhere(json) {
-  if (!json || typeof json !== "object") return null;
-  for (const key of ["ytd", "yearToDate", "gainYTD", "ytdGain"]) {
-    if (typeof json[key] === "number") return json[key];
+// ---------------------------------------------------------------- positions
+const live = await get(`/user-info/people/${U}/portfolio/live`);
+const rawPositions =
+  live.json?.positions || live.json?.data?.positions || [];
+
+// One instrument can hold several open positions. Aggregate the invested share.
+const byInstrument = new Map();
+for (const p of rawPositions) {
+  const id = p.instrumentId ?? p.instrumentID;
+  if (id == null) continue;
+  const pct = Number(p.investmentPct ?? p.investedPct ?? 0);
+  const prev = byInstrument.get(id) || { instrumentId: id, investedPct: 0, positions: 0 };
+  prev.investedPct += Number.isFinite(pct) ? pct : 0;
+  prev.positions += 1;
+  byInstrument.set(id, prev);
+}
+
+// ---------------------------------------------------------------- symbols
+const ids = [...byInstrument.keys()];
+const symbols = new Map();
+
+if (ids.length) {
+  const qs = ids.map((i) => `instrumentIds=${i}`).join("&");
+  let meta = await get(`/market-data/instruments?${qs}`);
+  if (meta.status !== 200) meta = await get(`/market/instruments?${qs}`);
+
+  const rows =
+    meta.json?.instrumentDisplayDatas ||
+    meta.json?.data?.instrumentDisplayDatas ||
+    (Array.isArray(meta.json) ? meta.json : []);
+
+  for (const r of rows) {
+    const id = r.instrumentID ?? r.instrumentId;
+    if (id == null) continue;
+    symbols.set(id, {
+      ticker: String(r.symbolFull || r.symbol || "").toUpperCase(),
+      name: r.instrumentDisplayName || r.displayName || "",
+    });
   }
-  return null;
+
+  // Per-id fallback for anything the batch call did not return.
+  for (const id of ids) {
+    if (symbols.has(id)) continue;
+    const one = await get(`/market/instruments/${id}`);
+    const r = one.json?.instrumentDisplayDatas?.[0] || one.json || {};
+    if (r.symbolFull || r.symbol) {
+      symbols.set(id, {
+        ticker: String(r.symbolFull || r.symbol).toUpperCase(),
+        name: r.instrumentDisplayName || r.displayName || "",
+      });
+    }
+  }
 }
 
-async function resolveUserId() {
-  if (process.env.ETORO_USER_ID) return process.env.ETORO_USER_ID;
-  const search = await get(`/users/search?query=${encodeURIComponent(USERNAME)}`);
-  const rows = Array.isArray(search.json)
-    ? search.json
-    : search.json?.items || search.json?.users || search.json?.data || [];
-  const match = rows.find(
-    (u) =>
-      String(u.username || u.userName || u.displayName || "").toLowerCase() ===
-      USERNAME.toLowerCase()
-  );
-  return match?.userId ?? match?.id ?? match?.cid ?? match?.realCID ?? null;
-}
+const positions = [...byInstrument.values()]
+  .map((p) => ({
+    ticker: symbols.get(p.instrumentId)?.ticker || `#${p.instrumentId}`,
+    name: symbols.get(p.instrumentId)?.name || "",
+    investedPct: Math.round(p.investedPct * 100) / 100,
+  }))
+  .sort((a, b) => b.investedPct - a.investedPct);
 
-const userId = await resolveUserId();
-console.log("userId:", userId ?? "(unresolved)");
-
-// Portfolio: current API first, then the aggregated snapshot as a backstop.
-const portfolio = userId ? await get(`/users/${userId}/portfolio`) : { json: null };
-const portfolioAlt =
-  findPositions(portfolio.json) ? { json: null } : await get(`/trading/portfolio`);
-
-// Performance: the legacy endpoint is the one the old n8n workflow proved works.
-const legacyGain = await get(
-  `/user-info/people/${encodeURIComponent(USERNAME)}/gain`
-);
-const gainSeries = userId ? await get(`/users/${userId}/gain/timeseries`) : { json: null };
-
-const positions = normalisePositions(
-  findPositions(portfolio.json) || findPositions(portfolioAlt.json)
-);
-
-const ytd =
-  ytdFromLegacyGain(legacyGain.json) ??
-  ytdFromAnywhere(gainSeries.json) ??
-  ytdFromAnywhere(legacyGain.json);
-
+// ---------------------------------------------------------------- output
 const out = {
   generatedAt: new Date().toISOString(),
   username: USERNAME,
-  userId: userId ?? null,
   ytd,
   ytdFormatted: typeof ytd === "number" ? `${ytd.toFixed(2)}%` : null,
   positionCount: positions.length,
@@ -176,7 +160,7 @@ const md = [
   ``,
   `| Ticker | Name | Invested % |`,
   `|---|---|---|`,
-  ...positions.map((p) => `| ${p.ticker} | ${p.name} | ${p.investedPct ?? ""} |`),
+  ...positions.map((p) => `| ${p.ticker} | ${p.name} | ${p.investedPct} |`),
   ``,
   `## Endpoint status`,
   ``,
@@ -188,21 +172,12 @@ await writeFile("data/latest.md", md);
 if (process.env.INCLUDE_RAW === "1") {
   await writeFile(
     "data/raw.json",
-    JSON.stringify(
-      {
-        portfolio: portfolio.json,
-        portfolioAlt: portfolioAlt.json,
-        legacyGain: legacyGain.json,
-        gainSeries: gainSeries.json,
-      },
-      null,
-      2
-    ) + "\n"
+    JSON.stringify({ gain: gain.json, live: live.json }, null, 2) + "\n"
   );
 }
 
 if (ytd === null && positions.length === 0) {
-  console.error("Nothing resolved. Check data/latest.md for endpoint status.");
+  console.error("Nothing resolved. See data/latest.md for endpoint status.");
   process.exit(1);
 }
 console.log(`OK  ytd=${out.ytdFormatted}  positions=${positions.length}`);
