@@ -1,15 +1,169 @@
 {
-  "generatedAt": "2026-08-13T12:44:58.076Z",
+  "generatedAt": "2026-08-13T12:45:54.794Z",
   "username": "MrMagoon",
-  "userId": null,
   "ytd": 92.57,
   "ytdFormatted": "92.57%",
-  "positionCount": 0,
-  "tickers": [],
-  "positions": [],
+  "positionCount": 22,
+  "tickers": [
+    "#100001",
+    "#1005",
+    "#1127",
+    "#7930",
+    "#6435",
+    "#9036",
+    "#1820",
+    "#1002",
+    "#10895",
+    "#6400",
+    "#4260",
+    "#7797",
+    "#8804",
+    "#3365",
+    "#1832",
+    "PATH",
+    "#1404",
+    "#1129",
+    "#4481",
+    "#1130",
+    "#4236",
+    "#1137"
+  ],
+  "positions": [
+    {
+      "ticker": "#100001",
+      "name": "",
+      "investedPct": 9.04
+    },
+    {
+      "ticker": "#1005",
+      "name": "",
+      "investedPct": 8.93
+    },
+    {
+      "ticker": "#1127",
+      "name": "",
+      "investedPct": 8.82
+    },
+    {
+      "ticker": "#7930",
+      "name": "",
+      "investedPct": 7.88
+    },
+    {
+      "ticker": "#6435",
+      "name": "",
+      "investedPct": 6.17
+    },
+    {
+      "ticker": "#9036",
+      "name": "",
+      "investedPct": 5.93
+    },
+    {
+      "ticker": "#1820",
+      "name": "",
+      "investedPct": 5.79
+    },
+    {
+      "ticker": "#1002",
+      "name": "",
+      "investedPct": 5.51
+    },
+    {
+      "ticker": "#10895",
+      "name": "",
+      "investedPct": 4.85
+    },
+    {
+      "ticker": "#6400",
+      "name": "",
+      "investedPct": 4.63
+    },
+    {
+      "ticker": "#4260",
+      "name": "",
+      "investedPct": 4.41
+    },
+    {
+      "ticker": "#7797",
+      "name": "",
+      "investedPct": 4.41
+    },
+    {
+      "ticker": "#8804",
+      "name": "",
+      "investedPct": 3.86
+    },
+    {
+      "ticker": "#3365",
+      "name": "",
+      "investedPct": 3.75
+    },
+    {
+      "ticker": "#1832",
+      "name": "",
+      "investedPct": 3.72
+    },
+    {
+      "ticker": "PATH",
+      "name": "UiPath Inc.",
+      "investedPct": 2.73
+    },
+    {
+      "ticker": "#1404",
+      "name": "",
+      "investedPct": 2.36
+    },
+    {
+      "ticker": "#1129",
+      "name": "",
+      "investedPct": 2.2
+    },
+    {
+      "ticker": "#4481",
+      "name": "",
+      "investedPct": 1.97
+    },
+    {
+      "ticker": "#1130",
+      "name": "",
+      "investedPct": 1.84
+    },
+    {
+      "ticker": "#4236",
+      "name": "",
+      "investedPct": 0.8
+    },
+    {
+      "ticker": "#1137",
+      "name": "",
+      "investedPct": 0.41
+    }
+  ],
   "diagnostics": {
-    "/users/search?query=MrMagoon": 404,
-    "/trading/portfolio": 404,
-    "/user-info/people/MrMagoon/gain": 200
+    "/user-info/people/MrMagoon/gain": 200,
+    "/user-info/people/MrMagoon/portfolio/live": 200,
+    "/market-data/instruments": 200,
+    "/market/instruments/1002": 404,
+    "/market/instruments/1005": 404,
+    "/market/instruments/1127": 404,
+    "/market/instruments/1129": 404,
+    "/market/instruments/1130": 404,
+    "/market/instruments/1137": 404,
+    "/market/instruments/1404": 404,
+    "/market/instruments/1820": 404,
+    "/market/instruments/1832": 404,
+    "/market/instruments/3365": 404,
+    "/market/instruments/4236": 404,
+    "/market/instruments/4260": 404,
+    "/market/instruments/4481": 404,
+    "/market/instruments/6400": 404,
+    "/market/instruments/6435": 404,
+    "/market/instruments/7930": 404,
+    "/market/instruments/100001": 404,
+    "/market/instruments/9036": 404,
+    "/market/instruments/10895": 404,
+    "/market/instruments/7797": 404,
+    "/market/instruments/8804": 404
   }
 }
