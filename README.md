@@ -35,7 +35,6 @@ GitHub Actions (05:00 UTC)          Cowork scheduled task (05:30 UTC)
    |---|---|
    | `ETORO_API_KEY` | the `x-api-key` header value from the old n8n HTTP node |
    | `ETORO_USER_KEY` | the `x-user-key` header value from the same node |
-   | `ETORO_USER_ID` | optional, the numeric eToro CID; leave empty to auto-resolve |
 
    Paste these yourself. They never need to pass through a chat.
 
@@ -71,13 +70,31 @@ responses to `data/raw.json` while debugging. Turn it off again on a public repo
 ## Endpoints used
 
 Base `https://public-api.etoro.com/api/v1`, headers `x-api-key`, `x-user-key`,
-`x-request-id`.
+`x-request-id` (a fresh UUID per request).
 
-- `GET /users/search?query=MrMagoon` — resolves username to userId
-- `GET /users/{userId}/portfolio` — live portfolio
-- `GET /trading/portfolio` — aggregated snapshot, used if the above returns nothing usable
-- `GET /user-info/people/MrMagoon/gain` — the endpoint the old n8n workflow used, still the most reliable source for the YTD figure
-- `GET /users/{userId}/gain/timeseries` — fallback for YTD
+- `GET /user-info/people/{username}/gain` — yearly gains, the YTD figure
+- `GET /user-info/people/{username}/portfolio/live` — positions as `instrumentId` + `investmentPct`
+- `GET /market-data/instruments?instrumentIds=1,2,3` — `instrumentId` → `symbolFull` (the ticker)
 
-The script tries all of them and records what answered, so it degrades instead
-of failing silently.
+Endpoints that do **not** exist on this API, so nobody tries them again:
+`/market/instruments/{id}`, `/users/search`, `/trading/portfolio`, `/users/{id}/portfolio`.
+
+### The instrumentIds trap
+
+`instrumentIds` is declared `style: form, explode: false` in the
+[OpenAPI spec](https://api-portal.etoro.com/api-reference/openapi.json), i.e.
+**one** parameter carrying a comma separated list. Repeating the parameter
+(`?instrumentIds=1&instrumentIds=2`) returns HTTP 200 with exactly one
+instrument — the server keeps only the last occurrence. That is what made 21 of
+22 tickers show up as `#1005` placeholders while everything looked healthy.
+
+`scripts/snapshot.mjs` tries comma, encoded comma, brackets and repeated in that
+order, keeps the first that resolves every id, and falls back to one request per
+instrument (unambiguous under any serialization, ~22 requests, well inside the
+120 req / 60 s market data budget). `diagnostics.symbolSerialization` records
+which one actually worked, so a silent change on eToro's side is visible in the
+next snapshot.
+
+`scripts/check-snapshot.mjs` runs after the commit and fails the workflow if any
+ticker is still an unresolved id — fresh data still lands, but the run goes red
+instead of feeding placeholders to the post task.

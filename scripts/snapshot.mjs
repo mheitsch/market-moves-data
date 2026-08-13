@@ -9,7 +9,7 @@
  * Verified working endpoints (2026-08-13):
  *   GET /user-info/people/{username}/gain          -> yearly gains, YTD
  *   GET /user-info/people/{username}/portfolio/live -> positions (instrumentId + investmentPct)
- *   GET /market-data/instruments?instrumentIds=... -> instrumentId -> symbolFull
+ *   GET /market-data/instruments?instrumentIds=1,2,3 -> instrumentId -> symbolFull
  *
  * Required env (GitHub Actions secrets):
  *   ETORO_API_KEY   -> x-api-key
@@ -34,8 +34,9 @@ if (!API_KEY || !USER_KEY) {
 
 const diagnostics = {};
 
-async function get(path) {
+async function get(path, { diag = true } = {}) {
   const url = BASE + path;
+  const key = path.split("?")[0];
   try {
     const res = await fetch(url, {
       headers: {
@@ -50,11 +51,11 @@ async function get(path) {
     try {
       json = JSON.parse(text);
     } catch {}
-    diagnostics[path.split("?")[0]] = res.status;
-    console.log(`${res.status}  ${path.slice(0, 90)}`);
+    if (diag) diagnostics[key] = res.status;
+    console.log(`${res.status}  ${path.slice(0, 110)}`);
     return { status: res.status, json };
   } catch (err) {
-    diagnostics[path.split("?")[0]] = `ERR ${err.message}`;
+    if (diag) diagnostics[key] = `ERR ${err.message}`;
     console.log(`ERR   ${path}  ${err.message}`);
     return { status: 0, json: null };
   }
@@ -82,8 +83,9 @@ const rawPositions =
 // One instrument can hold several open positions. Aggregate the invested share.
 const byInstrument = new Map();
 for (const p of rawPositions) {
-  const id = p.instrumentId ?? p.instrumentID;
-  if (id == null) continue;
+  const raw = p.instrumentId ?? p.instrumentID;
+  const id = Number(raw);
+  if (raw == null || !Number.isFinite(id)) continue;
   const pct = Number(p.investmentPct ?? p.investedPct ?? 0);
   const prev = byInstrument.get(id) || { instrumentId: id, investedPct: 0, positions: 0 };
   prev.investedPct += Number.isFinite(pct) ? pct : 0;
@@ -92,39 +94,74 @@ for (const p of rawPositions) {
 }
 
 // ---------------------------------------------------------------- symbols
+//
+// GET /market-data/instruments declares instrumentIds as `style: form,
+// explode: false` (openapi.json), i.e. ONE parameter holding a comma separated
+// list. Repeating the parameter (?instrumentIds=1&instrumentIds=2) makes the
+// server keep only the last value - that is why exactly one instrument used to
+// resolve. The variants below are tried in order and the first one that returns
+// every requested id wins; the winner is recorded in diagnostics so a silent
+// change on eToro's side is visible in the next snapshot.
 const ids = [...byInstrument.keys()];
 const symbols = new Map();
 
-if (ids.length) {
-  const qs = ids.map((i) => `instrumentIds=${i}`).join("&");
-  let meta = await get(`/market-data/instruments?${qs}`);
-  if (meta.status !== 200) meta = await get(`/market/instruments?${qs}`);
+const SERIALIZATIONS = [
+  ["comma", (list) => `instrumentIds=${list.join(",")}`],
+  ["comma-encoded", (list) => `instrumentIds=${list.join("%2C")}`],
+  ["brackets", (list) => list.map((i) => `instrumentIds%5B%5D=${i}`).join("&")],
+  ["repeated", (list) => list.map((i) => `instrumentIds=${i}`).join("&")],
+];
 
+function harvest(json) {
   const rows =
-    meta.json?.instrumentDisplayDatas ||
-    meta.json?.data?.instrumentDisplayDatas ||
-    (Array.isArray(meta.json) ? meta.json : []);
-
+    json?.instrumentDisplayDatas ||
+    json?.data?.instrumentDisplayDatas ||
+    (Array.isArray(json) ? json : []);
+  const found = new Map();
   for (const r of rows) {
     const id = r.instrumentID ?? r.instrumentId;
     if (id == null) continue;
-    symbols.set(id, {
-      ticker: String(r.symbolFull || r.symbol || "").toUpperCase(),
+    const ticker = String(r.symbolFull || r.symbol || "").toUpperCase();
+    if (!ticker) continue;
+    found.set(Number(id), {
+      ticker,
       name: r.instrumentDisplayName || r.displayName || "",
     });
   }
+  return found;
+}
 
-  // Per-id fallback for anything the batch call did not return.
-  for (const id of ids) {
-    if (symbols.has(id)) continue;
-    const one = await get(`/market/instruments/${id}`);
-    const r = one.json?.instrumentDisplayDatas?.[0] || one.json || {};
-    if (r.symbolFull || r.symbol) {
-      symbols.set(id, {
-        ticker: String(r.symbolFull || r.symbol).toUpperCase(),
-        name: r.instrumentDisplayName || r.displayName || "",
-      });
+let variantUsed = null;
+
+if (ids.length) {
+  for (const [name, build] of SERIALIZATIONS) {
+    const meta = await get(`/market-data/instruments?${build(ids)}`);
+    if (meta.status !== 200) continue;
+    const found = harvest(meta.json);
+    const hits = ids.filter((id) => found.has(id)).length;
+    console.log(`      serialization "${name}" resolved ${hits}/${ids.length}`);
+    for (const [id, v] of found) if (byInstrument.has(id)) symbols.set(id, v);
+    if (hits === ids.length) {
+      variantUsed = name;
+      break;
     }
+  }
+
+  // Per-id fallback. A single id is unambiguous under every serialization, so
+  // this works whatever the server does with lists - it just costs one request
+  // per instrument (22 today, inside the 120 req / 60 s market-data budget).
+  const missing = ids.filter((id) => !symbols.has(id));
+  if (missing.length) {
+    console.log(`      single lookups for ${missing.length} unresolved ids`);
+    for (const id of missing) {
+      const one = await get(`/market-data/instruments?instrumentIds=${id}`, {
+        diag: false,
+      });
+      const hit = harvest(one.json).get(id);
+      if (hit) symbols.set(id, hit);
+      await new Promise((r) => setTimeout(r, 120));
+    }
+    variantUsed = variantUsed ? `${variantUsed}+single` : "single";
   }
 }
 
@@ -135,6 +172,12 @@ const positions = [...byInstrument.values()]
     investedPct: Math.round(p.investedPct * 100) / 100,
   }))
   .sort((a, b) => b.investedPct - a.investedPct);
+
+// Symbol resolution is the part that broke before, so it reports on itself.
+diagnostics.symbolSerialization = variantUsed ?? "none";
+diagnostics.symbolsResolved = `${symbols.size}/${ids.length}`;
+const unresolved = ids.filter((id) => !symbols.has(id));
+if (unresolved.length) diagnostics.unresolvedInstrumentIds = unresolved;
 
 // ---------------------------------------------------------------- output
 const out = {

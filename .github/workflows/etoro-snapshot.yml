@@ -28,8 +28,6 @@ jobs:
           ETORO_API_KEY: ${{ secrets.ETORO_API_KEY }}
           ETORO_USER_KEY: ${{ secrets.ETORO_USER_KEY }}
           ETORO_USERNAME: MrMagoon
-          # Optional, skips the lookup call if set:
-          ETORO_USER_ID: ${{ secrets.ETORO_USER_ID }}
         run: node scripts/snapshot.mjs
 
       - name: Commit if changed
@@ -43,3 +41,8 @@ jobs:
             git commit -m "snapshot: $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # After the commit on purpose: fresh data still lands, but an unresolved
+      # ticker turns the run red instead of quietly reaching the post task.
+      - name: Verify snapshot is usable
+        run: node scripts/check-snapshot.mjs
