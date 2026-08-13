@@ -1,57 +1,38 @@
 # eToro snapshot
 
-Generated: 2026-08-13T12:45:54.794Z
+Generated: 2026-08-13T13:07:49.408Z
 YTD: 92.57%
 Positions: 22
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| #100001 |  | 9.04 |
-| #1005 |  | 8.93 |
-| #1127 |  | 8.82 |
-| #7930 |  | 7.88 |
-| #6435 |  | 6.17 |
-| #9036 |  | 5.93 |
-| #1820 |  | 5.79 |
-| #1002 |  | 5.51 |
-| #10895 |  | 4.85 |
-| #6400 |  | 4.63 |
-| #4260 |  | 4.41 |
-| #7797 |  | 4.41 |
-| #8804 |  | 3.86 |
-| #3365 |  | 3.75 |
-| #1832 |  | 3.72 |
+| ETH | Ethereum | 9.04 |
+| AMZN | Amazon.com Inc | 8.93 |
+| NFLX | Netflix, Inc. | 8.82 |
+| LQDA | Liquidia Corporation | 7.88 |
+| GPRE | Green Plains Inc | 6.17 |
+| IOVA | Iovance Biotherapeutics Inc. | 5.93 |
+| EXPE | Expedia Group Inc | 5.79 |
+| GOOG | Alphabet | 5.51 |
+| PSNL | Personalis Inc | 4.85 |
+| CGNX | Cognex Corp | 4.63 |
+| NOW | ServiceNow Inc | 4.41 |
+| RRX | Regal Rexnord Corp | 4.41 |
+| SNDK | Sandisk Corp/DE | 3.86 |
+| 3750.HK | Contemporary Amperex Technology Co Limited | 3.75 |
+| AMD | Advanced Micro Devices Inc | 3.72 |
 | PATH | UiPath Inc. | 2.73 |
-| #1404 |  | 2.36 |
-| #1129 |  | 2.2 |
-| #4481 |  | 1.97 |
-| #1130 |  | 1.84 |
-| #4236 |  | 0.8 |
-| #1137 |  | 0.41 |
+| ABBN.ZU | ABB LTD | 2.36 |
+| WDC | Western Digital Corporation | 2.2 |
+| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 1.97 |
+| MU | Micron Technology, Inc. | 1.84 |
+| AVGO | Broadcom Inc | 0.8 |
+| NVDA | NVIDIA Corporation | 0.41 |
 
 ## Endpoint status
 
 - `/user-info/people/MrMagoon/gain` -> 200
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
-- `/market/instruments/1002` -> 404
-- `/market/instruments/1005` -> 404
-- `/market/instruments/1127` -> 404
-- `/market/instruments/1129` -> 404
-- `/market/instruments/1130` -> 404
-- `/market/instruments/1137` -> 404
-- `/market/instruments/1404` -> 404
-- `/market/instruments/1820` -> 404
-- `/market/instruments/1832` -> 404
-- `/market/instruments/3365` -> 404
-- `/market/instruments/4236` -> 404
-- `/market/instruments/4260` -> 404
-- `/market/instruments/4481` -> 404
-- `/market/instruments/6400` -> 404
-- `/market/instruments/6435` -> 404
-- `/market/instruments/7930` -> 404
-- `/market/instruments/100001` -> 404
-- `/market/instruments/9036` -> 404
-- `/market/instruments/10895` -> 404
-- `/market/instruments/7797` -> 404
-- `/market/instruments/8804` -> 404
+- `symbolSerialization` -> comma
+- `symbolsResolved` -> 22/22
