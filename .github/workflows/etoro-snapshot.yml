@@ -1,0 +1,45 @@
+name: eToro snapshot
+
+on:
+  schedule:
+    # 05:00 UTC daily, 30 minutes before the Cowork post task runs.
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etoro-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch eToro snapshot
+        env:
+          ETORO_API_KEY: ${{ secrets.ETORO_API_KEY }}
+          ETORO_USER_KEY: ${{ secrets.ETORO_USER_KEY }}
+          ETORO_USERNAME: MrMagoon
+          # Optional, skips the lookup call if set:
+          ETORO_USER_ID: ${{ secrets.ETORO_USER_ID }}
+        run: node scripts/snapshot.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "etoro-snapshot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No change."
+          else
+            git commit -m "snapshot: $(date -u +%Y-%m-%d)"
+            git push
+          fi
