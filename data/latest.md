@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-08-17T05:30:57.175Z
-YTD: 105.08%
+Generated: 2026-08-18T05:23:34.772Z
+YTD: 105.04%
 Positions: 22
 
 | Ticker | Name | Invested % |
