@@ -1,33 +1,31 @@
 # eToro snapshot
 
-Generated: 2026-08-26T05:29:32.373Z
+Generated: 2026-08-27T16:03:27.461Z
 YTD: 106.77%
-Positions: 22
+Positions: 20
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| ETH | Ethereum | 9.04 |
-| AMZN | Amazon.com Inc | 8.93 |
-| NFLX | Netflix, Inc. | 8.82 |
-| LQDA | Liquidia Corporation | 7.88 |
-| GPRE | Green Plains Inc | 6.17 |
-| IOVA | Iovance Biotherapeutics Inc. | 5.93 |
-| EXPE | Expedia Group Inc | 5.79 |
-| GOOG | Alphabet | 5.51 |
-| PSNL | Personalis Inc | 4.85 |
-| CGNX | Cognex Corp | 4.63 |
-| NOW | ServiceNow Inc | 4.41 |
-| RRX | Regal Rexnord Corp | 4.41 |
-| SNDK | Sandisk Corp/DE | 3.86 |
-| 3750.HK | Contemporary Amperex Technology Co Limited | 3.75 |
-| AMD | Advanced Micro Devices Inc | 3.72 |
-| PATH | UiPath Inc. | 2.73 |
-| ABBN.ZU | ABB LTD | 2.36 |
-| WDC | Western Digital Corporation | 2.2 |
-| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 1.97 |
-| MU | Micron Technology, Inc. | 1.84 |
+| ETH | Ethereum | 9.12 |
+| AMZN | Amazon.com Inc | 9 |
+| NFLX | Netflix, Inc. | 8.89 |
+| LQDA | Liquidia Corporation | 7.95 |
+| EXPE | Expedia Group Inc | 7.5 |
+| IOVA | Iovance Biotherapeutics Inc. | 5.99 |
+| GOOG | Alphabet | 5.56 |
+| RRX | Regal Rexnord Corp | 5 |
+| PSNL | Personalis Inc | 4.89 |
+| CGNX | Cognex Corp | 4.67 |
+| PATH | UiPath Inc. | 4.09 |
+| SNDK | Sandisk Corp/DE | 3.89 |
+| 3750.HK | Contemporary Amperex Technology Co Limited | 3.78 |
+| AMD | Advanced Micro Devices Inc | 3.75 |
+| ABBN.ZU | ABB LTD | 2.38 |
+| WDC | Western Digital Corporation | 2.22 |
+| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 1.99 |
+| MU | Micron Technology, Inc. | 1.85 |
 | AVGO | Broadcom Inc | 0.8 |
-| NVDA | NVIDIA Corporation | 0.41 |
+| NVDA | NVIDIA Corporation | 0.42 |
 
 ## Endpoint status
 
@@ -35,4 +33,4 @@ Positions: 22
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
-- `symbolsResolved` -> 22/22
+- `symbolsResolved` -> 20/20

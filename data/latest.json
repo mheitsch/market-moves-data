@@ -1,26 +1,24 @@
 {
-  "generatedAt": "2026-08-26T05:29:32.373Z",
+  "generatedAt": "2026-08-27T16:03:27.461Z",
   "username": "MrMagoon",
   "ytd": 106.77,
   "ytdFormatted": "106.77%",
-  "positionCount": 22,
+  "positionCount": 20,
   "tickers": [
     "ETH",
     "AMZN",
     "NFLX",
     "LQDA",
-    "GPRE",
-    "IOVA",
     "EXPE",
+    "IOVA",
     "GOOG",
+    "RRX",
     "PSNL",
     "CGNX",
-    "NOW",
-    "RRX",
+    "PATH",
     "SNDK",
     "3750.HK",
     "AMD",
-    "PATH",
     "ABBN.ZU",
     "WDC",
     "TSM",
@@ -32,102 +30,92 @@
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.04
+      "investedPct": 9.12
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 8.93
+      "investedPct": 9
     },
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 8.82
+      "investedPct": 8.89
     },
     {
       "ticker": "LQDA",
       "name": "Liquidia Corporation",
-      "investedPct": 7.88
-    },
-    {
-      "ticker": "GPRE",
-      "name": "Green Plains Inc",
-      "investedPct": 6.17
-    },
-    {
-      "ticker": "IOVA",
-      "name": "Iovance Biotherapeutics Inc.",
-      "investedPct": 5.93
+      "investedPct": 7.95
     },
     {
       "ticker": "EXPE",
       "name": "Expedia Group Inc",
-      "investedPct": 5.79
+      "investedPct": 7.5
+    },
+    {
+      "ticker": "IOVA",
+      "name": "Iovance Biotherapeutics Inc.",
+      "investedPct": 5.99
     },
     {
       "ticker": "GOOG",
       "name": "Alphabet",
-      "investedPct": 5.51
-    },
-    {
-      "ticker": "PSNL",
-      "name": "Personalis Inc",
-      "investedPct": 4.85
-    },
-    {
-      "ticker": "CGNX",
-      "name": "Cognex Corp",
-      "investedPct": 4.63
-    },
-    {
-      "ticker": "NOW",
-      "name": "ServiceNow Inc",
-      "investedPct": 4.41
+      "investedPct": 5.56
     },
     {
       "ticker": "RRX",
       "name": "Regal Rexnord Corp",
-      "investedPct": 4.41
+      "investedPct": 5
     },
     {
-      "ticker": "SNDK",
-      "name": "Sandisk Corp/DE",
-      "investedPct": 3.86
+      "ticker": "PSNL",
+      "name": "Personalis Inc",
+      "investedPct": 4.89
     },
     {
-      "ticker": "3750.HK",
-      "name": "Contemporary Amperex Technology Co Limited",
-      "investedPct": 3.75
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc",
-      "investedPct": 3.72
+      "ticker": "CGNX",
+      "name": "Cognex Corp",
+      "investedPct": 4.67
     },
     {
       "ticker": "PATH",
       "name": "UiPath Inc.",
-      "investedPct": 2.73
+      "investedPct": 4.09
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corp/DE",
+      "investedPct": 3.89
+    },
+    {
+      "ticker": "3750.HK",
+      "name": "Contemporary Amperex Technology Co Limited",
+      "investedPct": 3.78
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc",
+      "investedPct": 3.75
     },
     {
       "ticker": "ABBN.ZU",
       "name": "ABB LTD",
-      "investedPct": 2.36
+      "investedPct": 2.38
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "investedPct": 2.2
+      "investedPct": 2.22
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
-      "investedPct": 1.97
+      "investedPct": 1.99
     },
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "investedPct": 1.84
+      "investedPct": 1.85
     },
     {
       "ticker": "AVGO",
@@ -137,7 +125,7 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "investedPct": 0.41
+      "investedPct": 0.42
     }
   ],
   "diagnostics": {
@@ -145,6 +133,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "22/22"
+    "symbolsResolved": "20/20"
   }
 }
