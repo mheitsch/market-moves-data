@@ -1,12 +1,12 @@
 # eToro snapshot
 
-Generated: 2026-09-02T09:15:51.263Z
-YTD: 103.61%
+Generated: 2026-09-03T09:24:22.045Z
+YTD: 100.87%
 Positions: 20
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| ETH | Ethereum | 9.12 |
+| ETH | Ethereum | 9.11 |
 | AMZN | Amazon.com Inc | 9 |
 | NFLX | Netflix, Inc. | 8.89 |
 | LQDA | Liquidia Corporation | 7.95 |
@@ -16,7 +16,7 @@ Positions: 20
 | RRX | Regal Rexnord Corp | 5 |
 | PSNL | Personalis Inc | 4.89 |
 | CGNX | Cognex Corp | 4.67 |
-| PATH | UiPath Inc. | 4.09 |
+| PATH | UiPath Inc. | 4.08 |
 | SNDK | Sandisk Corp/DE | 3.89 |
 | 3750.HK | Contemporary Amperex Technology Co Limited | 3.78 |
 | AMD | Advanced Micro Devices Inc | 3.75 |

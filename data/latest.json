@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-02T09:15:51.263Z",
+  "generatedAt": "2026-09-03T09:24:22.045Z",
   "username": "MrMagoon",
-  "ytd": 103.61,
-  "ytdFormatted": "103.61%",
+  "ytd": 100.87,
+  "ytdFormatted": "100.87%",
   "positionCount": 20,
   "tickers": [
     "ETH",
@@ -30,7 +30,7 @@
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.12
+      "investedPct": 9.11
     },
     {
       "ticker": "AMZN",
@@ -80,7 +80,7 @@
     {
       "ticker": "PATH",
       "name": "UiPath Inc.",
-      "investedPct": 4.09
+      "investedPct": 4.08
     },
     {
       "ticker": "SNDK",
