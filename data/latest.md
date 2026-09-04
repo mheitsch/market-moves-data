@@ -1,8 +1,8 @@
 # eToro snapshot
 
-Generated: 2026-09-03T09:24:22.045Z
-YTD: 100.87%
-Positions: 20
+Generated: 2026-09-04T09:17:13.938Z
+YTD: 102.39%
+Positions: 21
 
 | Ticker | Name | Invested % |
 |---|---|---|
@@ -11,7 +11,8 @@ Positions: 20
 | NFLX | Netflix, Inc. | 8.89 |
 | LQDA | Liquidia Corporation | 7.95 |
 | EXPE | Expedia Group Inc | 7.5 |
-| IOVA | Iovance Biotherapeutics Inc. | 5.99 |
+| INO | Inovio Pharmaceuticals Inc | 6.26 |
+| IOVA | Iovance Biotherapeutics Inc. | 5.98 |
 | GOOG | Alphabet | 5.56 |
 | RRX | Regal Rexnord Corp | 5 |
 | PSNL | Personalis Inc | 4.89 |
@@ -33,4 +34,4 @@ Positions: 20
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
-- `symbolsResolved` -> 20/20
+- `symbolsResolved` -> 21/21

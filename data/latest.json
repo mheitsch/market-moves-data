@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-09-03T09:24:22.045Z",
+  "generatedAt": "2026-09-04T09:17:13.938Z",
   "username": "MrMagoon",
-  "ytd": 100.87,
-  "ytdFormatted": "100.87%",
-  "positionCount": 20,
+  "ytd": 102.39,
+  "ytdFormatted": "102.39%",
+  "positionCount": 21,
   "tickers": [
     "ETH",
     "AMZN",
     "NFLX",
     "LQDA",
     "EXPE",
+    "INO",
     "IOVA",
     "GOOG",
     "RRX",
@@ -53,9 +54,14 @@
       "investedPct": 7.5
     },
     {
+      "ticker": "INO",
+      "name": "Inovio Pharmaceuticals Inc",
+      "investedPct": 6.26
+    },
+    {
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics Inc.",
-      "investedPct": 5.99
+      "investedPct": 5.98
     },
     {
       "ticker": "GOOG",
@@ -133,6 +139,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "20/20"
+    "symbolsResolved": "21/21"
   }
 }
