@@ -1,25 +1,26 @@
 {
-  "generatedAt": "2026-09-04T09:17:13.938Z",
+  "generatedAt": "2026-09-05T08:46:02.745Z",
   "username": "MrMagoon",
-  "ytd": 102.39,
-  "ytdFormatted": "102.39%",
-  "positionCount": 21,
+  "ytd": 103.26,
+  "ytdFormatted": "103.26%",
+  "positionCount": 22,
   "tickers": [
     "ETH",
     "AMZN",
     "NFLX",
     "LQDA",
-    "EXPE",
     "INO",
     "IOVA",
     "GOOG",
+    "PATH",
     "RRX",
     "PSNL",
     "CGNX",
-    "PATH",
     "SNDK",
     "3750.HK",
     "AMD",
+    "CRDO",
+    "EXPE",
     "ABBN.ZU",
     "WDC",
     "TSM",
@@ -31,77 +32,82 @@
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.11
+      "investedPct": 9.13
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 9
+      "investedPct": 9.02
     },
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 8.89
+      "investedPct": 8.91
     },
     {
       "ticker": "LQDA",
       "name": "Liquidia Corporation",
-      "investedPct": 7.95
-    },
-    {
-      "ticker": "EXPE",
-      "name": "Expedia Group Inc",
-      "investedPct": 7.5
+      "investedPct": 7.96
     },
     {
       "ticker": "INO",
       "name": "Inovio Pharmaceuticals Inc",
-      "investedPct": 6.26
+      "investedPct": 6.27
     },
     {
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics Inc.",
-      "investedPct": 5.98
+      "investedPct": 6
     },
     {
       "ticker": "GOOG",
       "name": "Alphabet",
-      "investedPct": 5.56
-    },
-    {
-      "ticker": "RRX",
-      "name": "Regal Rexnord Corp",
-      "investedPct": 5
-    },
-    {
-      "ticker": "PSNL",
-      "name": "Personalis Inc",
-      "investedPct": 4.89
-    },
-    {
-      "ticker": "CGNX",
-      "name": "Cognex Corp",
-      "investedPct": 4.67
+      "investedPct": 5.57
     },
     {
       "ticker": "PATH",
       "name": "UiPath Inc.",
-      "investedPct": 4.08
+      "investedPct": 5.21
+    },
+    {
+      "ticker": "RRX",
+      "name": "Regal Rexnord Corp",
+      "investedPct": 5.01
+    },
+    {
+      "ticker": "PSNL",
+      "name": "Personalis Inc",
+      "investedPct": 4.9
+    },
+    {
+      "ticker": "CGNX",
+      "name": "Cognex Corp",
+      "investedPct": 4.68
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corp/DE",
-      "investedPct": 3.89
+      "investedPct": 3.9
     },
     {
       "ticker": "3750.HK",
       "name": "Contemporary Amperex Technology Co Limited",
-      "investedPct": 3.78
+      "investedPct": 3.79
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "investedPct": 3.75
+      "investedPct": 3.76
+    },
+    {
+      "ticker": "CRDO",
+      "name": "Credo Technology Group Holding Ltd",
+      "investedPct": 3.68
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia Group Inc",
+      "investedPct": 2.51
     },
     {
       "ticker": "ABBN.ZU",
@@ -111,7 +117,7 @@
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "investedPct": 2.22
+      "investedPct": 2.23
     },
     {
       "ticker": "TSM",
@@ -121,7 +127,7 @@
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "investedPct": 1.85
+      "investedPct": 1.86
     },
     {
       "ticker": "AVGO",
@@ -139,6 +145,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "21/21"
+    "symbolsResolved": "22/22"
   }
 }
