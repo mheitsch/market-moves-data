@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-07T09:54:41.644Z",
+  "generatedAt": "2026-09-08T09:19:12.972Z",
   "username": "MrMagoon",
-  "ytd": 108.85,
-  "ytdFormatted": "108.85%",
+  "ytd": 109.04,
+  "ytdFormatted": "109.04%",
   "positionCount": 22,
   "tickers": [
     "ETH",
@@ -32,112 +32,112 @@
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.13
+      "investedPct": 8.5
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 9.02
+      "investedPct": 8.4
     },
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 8.91
+      "investedPct": 8.3
     },
     {
       "ticker": "LQDA",
       "name": "Liquidia Corporation",
-      "investedPct": 7.96
+      "investedPct": 7.41
     },
     {
       "ticker": "INO",
       "name": "Inovio Pharmaceuticals Inc",
-      "investedPct": 6.27
+      "investedPct": 5.84
     },
     {
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics Inc.",
-      "investedPct": 6
+      "investedPct": 5.58
     },
     {
       "ticker": "GOOG",
       "name": "Alphabet",
-      "investedPct": 5.57
+      "investedPct": 5.18
     },
     {
       "ticker": "PATH",
       "name": "UiPath Inc.",
-      "investedPct": 5.21
+      "investedPct": 4.85
     },
     {
       "ticker": "RRX",
       "name": "Regal Rexnord Corp",
-      "investedPct": 5.01
+      "investedPct": 4.67
     },
     {
       "ticker": "PSNL",
       "name": "Personalis Inc",
-      "investedPct": 4.9
+      "investedPct": 4.56
     },
     {
       "ticker": "CGNX",
       "name": "Cognex Corp",
-      "investedPct": 4.68
+      "investedPct": 4.36
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corp/DE",
-      "investedPct": 3.9
+      "investedPct": 3.63
     },
     {
       "ticker": "3750.HK",
       "name": "Contemporary Amperex Technology Co Limited",
-      "investedPct": 3.79
+      "investedPct": 3.53
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "investedPct": 3.76
+      "investedPct": 3.5
     },
     {
       "ticker": "CRDO",
       "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 3.68
+      "investedPct": 3.43
     },
     {
       "ticker": "EXPE",
       "name": "Expedia Group Inc",
-      "investedPct": 2.51
+      "investedPct": 2.33
     },
     {
       "ticker": "ABBN.ZU",
       "name": "ABB LTD",
-      "investedPct": 2.38
+      "investedPct": 2.22
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "investedPct": 2.23
+      "investedPct": 2.07
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
-      "investedPct": 1.99
+      "investedPct": 1.85
     },
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "investedPct": 1.86
+      "investedPct": 1.73
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc",
-      "investedPct": 0.8
+      "investedPct": 0.75
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "investedPct": 0.42
+      "investedPct": 0.39
     }
   ],
   "diagnostics": {

@@ -1,33 +1,33 @@
 # eToro snapshot
 
-Generated: 2026-09-07T09:54:41.644Z
-YTD: 108.85%
+Generated: 2026-09-08T09:19:12.972Z
+YTD: 109.04%
 Positions: 22
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| ETH | Ethereum | 9.13 |
-| AMZN | Amazon.com Inc | 9.02 |
-| NFLX | Netflix, Inc. | 8.91 |
-| LQDA | Liquidia Corporation | 7.96 |
-| INO | Inovio Pharmaceuticals Inc | 6.27 |
-| IOVA | Iovance Biotherapeutics Inc. | 6 |
-| GOOG | Alphabet | 5.57 |
-| PATH | UiPath Inc. | 5.21 |
-| RRX | Regal Rexnord Corp | 5.01 |
-| PSNL | Personalis Inc | 4.9 |
-| CGNX | Cognex Corp | 4.68 |
-| SNDK | Sandisk Corp/DE | 3.9 |
-| 3750.HK | Contemporary Amperex Technology Co Limited | 3.79 |
-| AMD | Advanced Micro Devices Inc | 3.76 |
-| CRDO | Credo Technology Group Holding Ltd | 3.68 |
-| EXPE | Expedia Group Inc | 2.51 |
-| ABBN.ZU | ABB LTD | 2.38 |
-| WDC | Western Digital Corporation | 2.23 |
-| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 1.99 |
-| MU | Micron Technology, Inc. | 1.86 |
-| AVGO | Broadcom Inc | 0.8 |
-| NVDA | NVIDIA Corporation | 0.42 |
+| ETH | Ethereum | 8.5 |
+| AMZN | Amazon.com Inc | 8.4 |
+| NFLX | Netflix, Inc. | 8.3 |
+| LQDA | Liquidia Corporation | 7.41 |
+| INO | Inovio Pharmaceuticals Inc | 5.84 |
+| IOVA | Iovance Biotherapeutics Inc. | 5.58 |
+| GOOG | Alphabet | 5.18 |
+| PATH | UiPath Inc. | 4.85 |
+| RRX | Regal Rexnord Corp | 4.67 |
+| PSNL | Personalis Inc | 4.56 |
+| CGNX | Cognex Corp | 4.36 |
+| SNDK | Sandisk Corp/DE | 3.63 |
+| 3750.HK | Contemporary Amperex Technology Co Limited | 3.53 |
+| AMD | Advanced Micro Devices Inc | 3.5 |
+| CRDO | Credo Technology Group Holding Ltd | 3.43 |
+| EXPE | Expedia Group Inc | 2.33 |
+| ABBN.ZU | ABB LTD | 2.22 |
+| WDC | Western Digital Corporation | 2.07 |
+| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 1.85 |
+| MU | Micron Technology, Inc. | 1.73 |
+| AVGO | Broadcom Inc | 0.75 |
+| NVDA | NVIDIA Corporation | 0.39 |
 
 ## Endpoint status
 
