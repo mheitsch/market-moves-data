@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-16T09:38:45.685Z",
+  "generatedAt": "2026-09-17T09:47:39.435Z",
   "username": "MrMagoon",
-  "ytd": 99.23,
-  "ytdFormatted": "99.23%",
+  "ytd": 96.73,
+  "ytdFormatted": "96.73%",
   "positionCount": 21,
   "tickers": [
     "ETH",
@@ -71,7 +71,7 @@
     {
       "ticker": "PSNL",
       "name": "Personalis Inc",
-      "investedPct": 4.94
+      "investedPct": 4.93
     },
     {
       "ticker": "CGNX",
@@ -101,7 +101,7 @@
     {
       "ticker": "CRDO",
       "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 3.71
+      "investedPct": 3.7
     },
     {
       "ticker": "ABBN.ZU",
