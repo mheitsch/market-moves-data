@@ -1,21 +1,21 @@
 # eToro snapshot
 
-Generated: 2026-09-17T09:47:39.435Z
-YTD: 96.73%
+Generated: 2026-09-18T09:21:01.866Z
+YTD: 99.52%
 Positions: 21
 
 | Ticker | Name | Invested % |
 |---|---|---|
+| AMZN | Amazon.com Inc | 9.92 |
 | ETH | Ethereum | 9.2 |
-| AMZN | Amazon.com Inc | 9.08 |
 | NFLX | Netflix, Inc. | 8.97 |
 | LQDA | Liquidia Corporation | 8.02 |
 | INO | Inovio Pharmaceuticals Inc | 6.32 |
 | IOVA | Iovance Biotherapeutics Inc. | 6.04 |
 | PATH | UiPath Inc. | 5.24 |
-| RRX | Regal Rexnord Corp | 5.05 |
+| RRX | Regal Rexnord Corp | 5.21 |
 | PSNL | Personalis Inc | 4.93 |
-| CGNX | Cognex Corp | 4.71 |
+| CGNX | Cognex Corp | 4.88 |
 | CEVA | Ceva Inc. | 4.11 |
 | SNDK | Sandisk Corp/DE | 3.93 |
 | NOK | Nokia Oyj-ADR | 3.92 |

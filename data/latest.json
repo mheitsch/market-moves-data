@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-17T09:47:39.435Z",
+  "generatedAt": "2026-09-18T09:21:01.866Z",
   "username": "MrMagoon",
-  "ytd": 96.73,
-  "ytdFormatted": "96.73%",
+  "ytd": 99.52,
+  "ytdFormatted": "99.52%",
   "positionCount": 21,
   "tickers": [
-    "ETH",
     "AMZN",
+    "ETH",
     "NFLX",
     "LQDA",
     "INO",
@@ -29,14 +29,14 @@
   ],
   "positions": [
     {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc",
+      "investedPct": 9.92
+    },
+    {
       "ticker": "ETH",
       "name": "Ethereum",
       "investedPct": 9.2
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com Inc",
-      "investedPct": 9.08
     },
     {
       "ticker": "NFLX",
@@ -66,7 +66,7 @@
     {
       "ticker": "RRX",
       "name": "Regal Rexnord Corp",
-      "investedPct": 5.05
+      "investedPct": 5.21
     },
     {
       "ticker": "PSNL",
@@ -76,7 +76,7 @@
     {
       "ticker": "CGNX",
       "name": "Cognex Corp",
-      "investedPct": 4.71
+      "investedPct": 4.88
     },
     {
       "ticker": "CEVA",
