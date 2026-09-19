@@ -1,32 +1,31 @@
 # eToro snapshot
 
-Generated: 2026-09-18T09:21:01.866Z
-YTD: 99.52%
-Positions: 21
+Generated: 2026-09-19T09:08:40.641Z
+YTD: 104.37%
+Positions: 20
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| AMZN | Amazon.com Inc | 9.92 |
-| ETH | Ethereum | 9.2 |
-| NFLX | Netflix, Inc. | 8.97 |
-| LQDA | Liquidia Corporation | 8.02 |
-| INO | Inovio Pharmaceuticals Inc | 6.32 |
-| IOVA | Iovance Biotherapeutics Inc. | 6.04 |
-| PATH | UiPath Inc. | 5.24 |
-| RRX | Regal Rexnord Corp | 5.21 |
-| PSNL | Personalis Inc | 4.93 |
-| CGNX | Cognex Corp | 4.88 |
-| CEVA | Ceva Inc. | 4.11 |
-| SNDK | Sandisk Corp/DE | 3.93 |
-| NOK | Nokia Oyj-ADR | 3.92 |
-| AMD | Advanced Micro Devices Inc | 3.79 |
-| CRDO | Credo Technology Group Holding Ltd | 3.7 |
-| ABBN.ZU | ABB LTD | 2.4 |
-| WDC | Western Digital Corporation | 2.24 |
-| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.01 |
-| MU | Micron Technology, Inc. | 1.87 |
-| AVGO | Broadcom Inc | 0.81 |
-| NVDA | NVIDIA Corporation | 0.42 |
+| AMZN | Amazon.com Inc | 10.07 |
+| ETH | Ethereum | 9.34 |
+| NFLX | Netflix, Inc. | 9.11 |
+| IOVA | Iovance Biotherapeutics Inc. | 8.93 |
+| LQDA | Liquidia Corporation | 8.14 |
+| INO | Inovio Pharmaceuticals Inc | 6.41 |
+| PATH | UiPath Inc. | 5.32 |
+| PSNL | Personalis Inc | 5.01 |
+| CGNX | Cognex Corp | 4.95 |
+| CEVA | Ceva Inc. | 4.57 |
+| CRDO | Credo Technology Group Holding Ltd | 4.16 |
+| SNDK | Sandisk Corp/DE | 3.98 |
+| NOK | Nokia Oyj-ADR | 3.98 |
+| AMD | Advanced Micro Devices Inc | 3.84 |
+| ABBN.ZU | ABB LTD | 2.44 |
+| WDC | Western Digital Corporation | 2.28 |
+| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.04 |
+| MU | Micron Technology, Inc. | 1.9 |
+| AVGO | Broadcom Inc | 0.82 |
+| NVDA | NVIDIA Corporation | 0.43 |
 
 ## Endpoint status
 
@@ -34,4 +33,4 @@ Positions: 21
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
-- `symbolsResolved` -> 21/21
+- `symbolsResolved` -> 20/20

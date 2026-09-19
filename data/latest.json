@@ -1,25 +1,24 @@
 {
-  "generatedAt": "2026-09-18T09:21:01.866Z",
+  "generatedAt": "2026-09-19T09:08:40.641Z",
   "username": "MrMagoon",
-  "ytd": 99.52,
-  "ytdFormatted": "99.52%",
-  "positionCount": 21,
+  "ytd": 104.37,
+  "ytdFormatted": "104.37%",
+  "positionCount": 20,
   "tickers": [
     "AMZN",
     "ETH",
     "NFLX",
+    "IOVA",
     "LQDA",
     "INO",
-    "IOVA",
     "PATH",
-    "RRX",
     "PSNL",
     "CGNX",
     "CEVA",
+    "CRDO",
     "SNDK",
     "NOK",
     "AMD",
-    "CRDO",
     "ABBN.ZU",
     "WDC",
     "TSM",
@@ -31,107 +30,102 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 9.92
+      "investedPct": 10.07
     },
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.2
+      "investedPct": 9.34
     },
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 8.97
-    },
-    {
-      "ticker": "LQDA",
-      "name": "Liquidia Corporation",
-      "investedPct": 8.02
-    },
-    {
-      "ticker": "INO",
-      "name": "Inovio Pharmaceuticals Inc",
-      "investedPct": 6.32
+      "investedPct": 9.11
     },
     {
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics Inc.",
-      "investedPct": 6.04
+      "investedPct": 8.93
+    },
+    {
+      "ticker": "LQDA",
+      "name": "Liquidia Corporation",
+      "investedPct": 8.14
+    },
+    {
+      "ticker": "INO",
+      "name": "Inovio Pharmaceuticals Inc",
+      "investedPct": 6.41
     },
     {
       "ticker": "PATH",
       "name": "UiPath Inc.",
-      "investedPct": 5.24
-    },
-    {
-      "ticker": "RRX",
-      "name": "Regal Rexnord Corp",
-      "investedPct": 5.21
+      "investedPct": 5.32
     },
     {
       "ticker": "PSNL",
       "name": "Personalis Inc",
-      "investedPct": 4.93
+      "investedPct": 5.01
     },
     {
       "ticker": "CGNX",
       "name": "Cognex Corp",
-      "investedPct": 4.88
+      "investedPct": 4.95
     },
     {
       "ticker": "CEVA",
       "name": "Ceva Inc.",
-      "investedPct": 4.11
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corp/DE",
-      "investedPct": 3.93
-    },
-    {
-      "ticker": "NOK",
-      "name": "Nokia Oyj-ADR",
-      "investedPct": 3.92
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc",
-      "investedPct": 3.79
+      "investedPct": 4.57
     },
     {
       "ticker": "CRDO",
       "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 3.7
+      "investedPct": 4.16
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corp/DE",
+      "investedPct": 3.98
+    },
+    {
+      "ticker": "NOK",
+      "name": "Nokia Oyj-ADR",
+      "investedPct": 3.98
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc",
+      "investedPct": 3.84
     },
     {
       "ticker": "ABBN.ZU",
       "name": "ABB LTD",
-      "investedPct": 2.4
+      "investedPct": 2.44
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "investedPct": 2.24
+      "investedPct": 2.28
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
-      "investedPct": 2.01
+      "investedPct": 2.04
     },
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "investedPct": 1.87
+      "investedPct": 1.9
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc",
-      "investedPct": 0.81
+      "investedPct": 0.82
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "investedPct": 0.42
+      "investedPct": 0.43
     }
   ],
   "diagnostics": {
@@ -139,6 +133,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "21/21"
+    "symbolsResolved": "20/20"
   }
 }
