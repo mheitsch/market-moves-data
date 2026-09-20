@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-19T09:08:40.641Z",
+  "generatedAt": "2026-09-20T09:34:06.172Z",
   "username": "MrMagoon",
-  "ytd": 104.37,
-  "ytdFormatted": "104.37%",
+  "ytd": 111.54,
+  "ytdFormatted": "111.54%",
   "positionCount": 20,
   "tickers": [
     "AMZN",
@@ -16,8 +16,8 @@
     "CGNX",
     "CEVA",
     "CRDO",
-    "SNDK",
     "NOK",
+    "SNDK",
     "AMD",
     "ABBN.ZU",
     "WDC",
@@ -83,13 +83,13 @@
       "investedPct": 4.16
     },
     {
-      "ticker": "SNDK",
-      "name": "Sandisk Corp/DE",
+      "ticker": "NOK",
+      "name": "Nokia Oyj-ADR",
       "investedPct": 3.98
     },
     {
-      "ticker": "NOK",
-      "name": "Nokia Oyj-ADR",
+      "ticker": "SNDK",
+      "name": "Sandisk Corp/DE",
       "investedPct": 3.98
     },
     {

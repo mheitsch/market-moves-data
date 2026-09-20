@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-09-19T09:08:40.641Z
-YTD: 104.37%
+Generated: 2026-09-20T09:34:06.172Z
+YTD: 111.54%
 Positions: 20
 
 | Ticker | Name | Invested % |
@@ -17,8 +17,8 @@ Positions: 20
 | CGNX | Cognex Corp | 4.95 |
 | CEVA | Ceva Inc. | 4.57 |
 | CRDO | Credo Technology Group Holding Ltd | 4.16 |
-| SNDK | Sandisk Corp/DE | 3.98 |
 | NOK | Nokia Oyj-ADR | 3.98 |
+| SNDK | Sandisk Corp/DE | 3.98 |
 | AMD | Advanced Micro Devices Inc | 3.84 |
 | ABBN.ZU | ABB LTD | 2.44 |
 | WDC | Western Digital Corporation | 2.28 |
