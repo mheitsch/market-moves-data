@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-20T09:34:06.172Z",
+  "generatedAt": "2026-09-21T10:27:01.196Z",
   "username": "MrMagoon",
-  "ytd": 111.54,
-  "ytdFormatted": "111.54%",
-  "positionCount": 20,
+  "ytd": null,
+  "ytdFormatted": null,
+  "positionCount": 21,
   "tickers": [
     "AMZN",
     "ETH",
@@ -21,6 +21,7 @@
     "AMD",
     "ABBN.ZU",
     "WDC",
+    "SIVE.ST",
     "TSM",
     "MU",
     "AVGO",
@@ -108,6 +109,11 @@
       "investedPct": 2.28
     },
     {
+      "ticker": "SIVE.ST",
+      "name": "Sivers Semiconductors AB",
+      "investedPct": 2.28
+    },
+    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
       "investedPct": 2.04
@@ -129,10 +135,10 @@
     }
   ],
   "diagnostics": {
-    "/user-info/people/MrMagoon/gain": 200,
+    "/user-info/people/MrMagoon/gain": "ERR fetch failed",
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "20/20"
+    "symbolsResolved": "21/21"
   }
 }

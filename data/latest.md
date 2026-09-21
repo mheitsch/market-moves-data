@@ -1,8 +1,8 @@
 # eToro snapshot
 
-Generated: 2026-09-20T09:34:06.172Z
-YTD: 111.54%
-Positions: 20
+Generated: 2026-09-21T10:27:01.196Z
+YTD: unresolved
+Positions: 21
 
 | Ticker | Name | Invested % |
 |---|---|---|
@@ -22,6 +22,7 @@ Positions: 20
 | AMD | Advanced Micro Devices Inc | 3.84 |
 | ABBN.ZU | ABB LTD | 2.44 |
 | WDC | Western Digital Corporation | 2.28 |
+| SIVE.ST | Sivers Semiconductors AB | 2.28 |
 | TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.04 |
 | MU | Micron Technology, Inc. | 1.9 |
 | AVGO | Broadcom Inc | 0.82 |
@@ -29,8 +30,8 @@ Positions: 20
 
 ## Endpoint status
 
-- `/user-info/people/MrMagoon/gain` -> 200
+- `/user-info/people/MrMagoon/gain` -> ERR fetch failed
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
-- `symbolsResolved` -> 20/20
+- `symbolsResolved` -> 21/21
