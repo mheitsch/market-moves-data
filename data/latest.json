@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-21T10:27:01.196Z",
+  "generatedAt": "2026-09-22T09:36:05.980Z",
   "username": "MrMagoon",
-  "ytd": null,
-  "ytdFormatted": null,
+  "ytd": 111.71,
+  "ytdFormatted": "111.71%",
   "positionCount": 21,
   "tickers": [
     "AMZN",
@@ -16,8 +16,8 @@
     "CGNX",
     "CEVA",
     "CRDO",
-    "NOK",
     "SNDK",
+    "NOK",
     "AMD",
     "ABBN.ZU",
     "WDC",
@@ -84,13 +84,13 @@
       "investedPct": 4.16
     },
     {
-      "ticker": "NOK",
-      "name": "Nokia Oyj-ADR",
+      "ticker": "SNDK",
+      "name": "Sandisk Corp/DE",
       "investedPct": 3.98
     },
     {
-      "ticker": "SNDK",
-      "name": "Sandisk Corp/DE",
+      "ticker": "NOK",
+      "name": "Nokia Oyj-ADR",
       "investedPct": 3.98
     },
     {
@@ -135,7 +135,7 @@
     }
   ],
   "diagnostics": {
-    "/user-info/people/MrMagoon/gain": "ERR fetch failed",
+    "/user-info/people/MrMagoon/gain": 200,
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",

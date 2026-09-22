@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-09-21T10:27:01.196Z
-YTD: unresolved
+Generated: 2026-09-22T09:36:05.980Z
+YTD: 111.71%
 Positions: 21
 
 | Ticker | Name | Invested % |
@@ -17,8 +17,8 @@ Positions: 21
 | CGNX | Cognex Corp | 4.95 |
 | CEVA | Ceva Inc. | 4.57 |
 | CRDO | Credo Technology Group Holding Ltd | 4.16 |
-| NOK | Nokia Oyj-ADR | 3.98 |
 | SNDK | Sandisk Corp/DE | 3.98 |
+| NOK | Nokia Oyj-ADR | 3.98 |
 | AMD | Advanced Micro Devices Inc | 3.84 |
 | ABBN.ZU | ABB LTD | 2.44 |
 | WDC | Western Digital Corporation | 2.28 |
@@ -30,7 +30,7 @@ Positions: 21
 
 ## Endpoint status
 
-- `/user-info/people/MrMagoon/gain` -> ERR fetch failed
+- `/user-info/people/MrMagoon/gain` -> 200
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
