@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T11:01:49.759Z",
+  "generatedAt": "2026-09-30T10:52:01.129Z",
   "username": "MrMagoon",
-  "ytd": 113.83,
-  "ytdFormatted": "113.83%",
+  "ytd": 120.04,
+  "ytdFormatted": "120.04%",
   "positionCount": 19,
   "tickers": [
     "AMZN",
@@ -39,7 +39,7 @@
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 9.17
+      "investedPct": 9.16
     },
     {
       "ticker": "IOVA",
