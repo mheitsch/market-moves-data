@@ -1,12 +1,12 @@
 # eToro snapshot
 
-Generated: 2026-09-30T10:52:01.129Z
-YTD: 120.04%
+Generated: 2026-10-01T11:18:59.871Z
+YTD: 117.24%
 Positions: 19
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| AMZN | Amazon.com Inc | 10.14 |
+| AMZN | Amazon.com Inc | 10.13 |
 | ETH | Ethereum | 9.39 |
 | NFLX | Netflix, Inc. | 9.16 |
 | IOVA | Iovance Biotherapeutics Inc. | 8.99 |

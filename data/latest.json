@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30T10:52:01.129Z",
+  "generatedAt": "2026-10-01T11:18:59.871Z",
   "username": "MrMagoon",
-  "ytd": 120.04,
-  "ytdFormatted": "120.04%",
+  "ytd": 117.24,
+  "ytdFormatted": "117.24%",
   "positionCount": 19,
   "tickers": [
     "AMZN",
@@ -29,7 +29,7 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 10.14
+      "investedPct": 10.13
     },
     {
       "ticker": "ETH",
