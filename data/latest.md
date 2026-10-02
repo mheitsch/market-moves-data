@@ -1,30 +1,29 @@
 # eToro snapshot
 
-Generated: 2026-10-01T11:18:59.871Z
+Generated: 2026-10-02T10:51:08.421Z
 YTD: 117.24%
-Positions: 19
+Positions: 18
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| AMZN | Amazon.com Inc | 10.13 |
-| ETH | Ethereum | 9.39 |
-| NFLX | Netflix, Inc. | 9.16 |
-| IOVA | Iovance Biotherapeutics Inc. | 8.99 |
-| LQDA | Liquidia Corporation | 8.19 |
-| CEVA | Ceva Inc. | 7.53 |
-| INO | Inovio Pharmaceuticals Inc | 6.45 |
-| SIVE.ST | Sivers Semiconductors AB | 6.34 |
-| CRDO | Credo Technology Group Holding Ltd | 5.9 |
-| PSNL | Personalis Inc | 5.04 |
-| CGNX | Cognex Corp | 4.98 |
-| SNDK | Sandisk Corp/DE | 4.01 |
-| AMD | Advanced Micro Devices Inc | 3.87 |
-| ABBN.ZU | ABB LTD | 2.45 |
-| WDC | Western Digital Corporation | 2.29 |
-| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.05 |
-| MU | Micron Technology, Inc. | 1.91 |
-| AVGO | Broadcom Inc | 0.83 |
-| NVDA | NVIDIA Corporation | 0.43 |
+| AMZN | Amazon.com Inc | 10.58 |
+| CEVA | Ceva Inc. | 10.03 |
+| ETH | Ethereum | 9.59 |
+| NFLX | Netflix, Inc. | 9.36 |
+| IOVA | Iovance Biotherapeutics Inc. | 9.18 |
+| CRDO | Credo Technology Group Holding Ltd | 7.78 |
+| INO | Inovio Pharmaceuticals Inc | 6.88 |
+| SIVE.ST | Sivers Semiconductors AB | 6.47 |
+| CGNX | Cognex Corp | 5.67 |
+| PSNL | Personalis Inc | 5.15 |
+| SNDK | Sandisk Corp/DE | 4.09 |
+| AMD | Advanced Micro Devices Inc | 3.95 |
+| ABBN.ZU | ABB LTD | 2.5 |
+| WDC | Western Digital Corporation | 2.34 |
+| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.09 |
+| MU | Micron Technology, Inc. | 1.95 |
+| AVGO | Broadcom Inc | 0.84 |
+| NVDA | NVIDIA Corporation | 0.44 |
 
 ## Endpoint status
 
@@ -32,4 +31,4 @@ Positions: 19
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
-- `symbolsResolved` -> 19/19
+- `symbolsResolved` -> 18/18

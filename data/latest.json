@@ -1,21 +1,20 @@
 {
-  "generatedAt": "2026-10-01T11:18:59.871Z",
+  "generatedAt": "2026-10-02T10:51:08.421Z",
   "username": "MrMagoon",
   "ytd": 117.24,
   "ytdFormatted": "117.24%",
-  "positionCount": 19,
+  "positionCount": 18,
   "tickers": [
     "AMZN",
+    "CEVA",
     "ETH",
     "NFLX",
     "IOVA",
-    "LQDA",
-    "CEVA",
+    "CRDO",
     "INO",
     "SIVE.ST",
-    "CRDO",
-    "PSNL",
     "CGNX",
+    "PSNL",
     "SNDK",
     "AMD",
     "ABBN.ZU",
@@ -29,97 +28,92 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 10.13
-    },
-    {
-      "ticker": "ETH",
-      "name": "Ethereum",
-      "investedPct": 9.39
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix, Inc.",
-      "investedPct": 9.16
-    },
-    {
-      "ticker": "IOVA",
-      "name": "Iovance Biotherapeutics Inc.",
-      "investedPct": 8.99
-    },
-    {
-      "ticker": "LQDA",
-      "name": "Liquidia Corporation",
-      "investedPct": 8.19
+      "investedPct": 10.58
     },
     {
       "ticker": "CEVA",
       "name": "Ceva Inc.",
-      "investedPct": 7.53
+      "investedPct": 10.03
     },
     {
-      "ticker": "INO",
-      "name": "Inovio Pharmaceuticals Inc",
-      "investedPct": 6.45
+      "ticker": "ETH",
+      "name": "Ethereum",
+      "investedPct": 9.59
     },
     {
-      "ticker": "SIVE.ST",
-      "name": "Sivers Semiconductors AB",
-      "investedPct": 6.34
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "investedPct": 9.36
+    },
+    {
+      "ticker": "IOVA",
+      "name": "Iovance Biotherapeutics Inc.",
+      "investedPct": 9.18
     },
     {
       "ticker": "CRDO",
       "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 5.9
+      "investedPct": 7.78
     },
     {
-      "ticker": "PSNL",
-      "name": "Personalis Inc",
-      "investedPct": 5.04
+      "ticker": "INO",
+      "name": "Inovio Pharmaceuticals Inc",
+      "investedPct": 6.88
+    },
+    {
+      "ticker": "SIVE.ST",
+      "name": "Sivers Semiconductors AB",
+      "investedPct": 6.47
     },
     {
       "ticker": "CGNX",
       "name": "Cognex Corp",
-      "investedPct": 4.98
+      "investedPct": 5.67
+    },
+    {
+      "ticker": "PSNL",
+      "name": "Personalis Inc",
+      "investedPct": 5.15
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corp/DE",
-      "investedPct": 4.01
+      "investedPct": 4.09
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "investedPct": 3.87
+      "investedPct": 3.95
     },
     {
       "ticker": "ABBN.ZU",
       "name": "ABB LTD",
-      "investedPct": 2.45
+      "investedPct": 2.5
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "investedPct": 2.29
+      "investedPct": 2.34
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
-      "investedPct": 2.05
+      "investedPct": 2.09
     },
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "investedPct": 1.91
+      "investedPct": 1.95
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc",
-      "investedPct": 0.83
+      "investedPct": 0.84
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "investedPct": 0.43
+      "investedPct": 0.44
     }
   ],
   "diagnostics": {
@@ -127,6 +121,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "19/19"
+    "symbolsResolved": "18/18"
   }
 }
