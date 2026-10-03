@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T10:51:08.421Z",
+  "generatedAt": "2026-10-03T10:10:35.665Z",
   "username": "MrMagoon",
-  "ytd": 117.24,
-  "ytdFormatted": "117.24%",
+  "ytd": 117.71,
+  "ytdFormatted": "117.71%",
   "positionCount": 18,
   "tickers": [
     "AMZN",
@@ -28,7 +28,7 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 10.58
+      "investedPct": 10.86
     },
     {
       "ticker": "CEVA",
@@ -43,7 +43,7 @@
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 9.36
+      "investedPct": 9.53
     },
     {
       "ticker": "IOVA",
@@ -58,12 +58,12 @@
     {
       "ticker": "INO",
       "name": "Inovio Pharmaceuticals Inc",
-      "investedPct": 6.88
+      "investedPct": 7.23
     },
     {
       "ticker": "SIVE.ST",
       "name": "Sivers Semiconductors AB",
-      "investedPct": 6.47
+      "investedPct": 6.77
     },
     {
       "ticker": "CGNX",

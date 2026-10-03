@@ -1,19 +1,19 @@
 # eToro snapshot
 
-Generated: 2026-10-02T10:51:08.421Z
-YTD: 117.24%
+Generated: 2026-10-03T10:10:35.665Z
+YTD: 117.71%
 Positions: 18
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| AMZN | Amazon.com Inc | 10.58 |
+| AMZN | Amazon.com Inc | 10.86 |
 | CEVA | Ceva Inc. | 10.03 |
 | ETH | Ethereum | 9.59 |
-| NFLX | Netflix, Inc. | 9.36 |
+| NFLX | Netflix, Inc. | 9.53 |
 | IOVA | Iovance Biotherapeutics Inc. | 9.18 |
 | CRDO | Credo Technology Group Holding Ltd | 7.78 |
-| INO | Inovio Pharmaceuticals Inc | 6.88 |
-| SIVE.ST | Sivers Semiconductors AB | 6.47 |
+| INO | Inovio Pharmaceuticals Inc | 7.23 |
+| SIVE.ST | Sivers Semiconductors AB | 6.77 |
 | CGNX | Cognex Corp | 5.67 |
 | PSNL | Personalis Inc | 5.15 |
 | SNDK | Sandisk Corp/DE | 4.09 |
