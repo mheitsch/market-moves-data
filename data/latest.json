@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-05T11:59:52.581Z",
+  "generatedAt": "2026-10-06T11:42:54.366Z",
   "username": "MrMagoon",
-  "ytd": 118.21,
-  "ytdFormatted": "118.21%",
+  "ytd": 118.28,
+  "ytdFormatted": "118.28%",
   "positionCount": 18,
   "tickers": [
     "AMZN",
@@ -38,7 +38,7 @@
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.59
+      "investedPct": 9.6
     },
     {
       "ticker": "NFLX",
@@ -63,7 +63,7 @@
     {
       "ticker": "SIVE.ST",
       "name": "Sivers Semiconductors AB",
-      "investedPct": 6.77
+      "investedPct": 6.76
     },
     {
       "ticker": "CGNX",
