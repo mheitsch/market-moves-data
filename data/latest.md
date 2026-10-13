@@ -1,6 +1,6 @@
 # eToro snapshot
 
-Generated: 2026-10-12T12:43:18.244Z
+Generated: 2026-10-13T12:25:45.149Z
 YTD: 110.83%
 Positions: 18
 
