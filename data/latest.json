@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:48:25.096Z",
+  "generatedAt": "2026-10-23T09:42:57.804Z",
   "username": "MrMagoon",
   "ytd": 94.58,
   "ytdFormatted": "94.58%",
@@ -7,8 +7,8 @@
   "tickers": [
     "AMZN",
     "CEVA",
-    "ETH",
     "NFLX",
+    "ETH",
     "IOVA",
     "CRDO",
     "SIVE.ST",
@@ -35,14 +35,14 @@
       "investedPct": 10.35
     },
     {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "investedPct": 10.14
+    },
+    {
       "ticker": "ETH",
       "name": "Ethereum",
       "investedPct": 9.91
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix, Inc.",
-      "investedPct": 9.84
     },
     {
       "ticker": "IOVA",
@@ -52,12 +52,12 @@
     {
       "ticker": "CRDO",
       "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 8.03
+      "investedPct": 8.33
     },
     {
       "ticker": "SIVE.ST",
       "name": "Sivers Semiconductors AB",
-      "investedPct": 6.98
+      "investedPct": 7.16
     },
     {
       "ticker": "CGNX",
