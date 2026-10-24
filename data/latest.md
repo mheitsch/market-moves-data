@@ -1,13 +1,13 @@
 # eToro snapshot
 
-Generated: 2026-10-23T09:42:57.804Z
-YTD: 94.58%
+Generated: 2026-10-24T09:15:36.691Z
+YTD: 81.44%
 Positions: 17
 
 | Ticker | Name | Invested % |
 |---|---|---|
 | AMZN | Amazon.com Inc | 11.21 |
-| CEVA | Ceva Inc. | 10.35 |
+| CEVA | Ceva Inc. | 10.65 |
 | NFLX | Netflix, Inc. | 10.14 |
 | ETH | Ethereum | 9.91 |
 | IOVA | Iovance Biotherapeutics Inc. | 9.47 |
