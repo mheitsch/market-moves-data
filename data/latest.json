@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-27T10:10:23.309Z",
+  "generatedAt": "2026-10-28T10:56:24.973Z",
   "username": "MrMagoon",
-  "ytd": 81.32,
-  "ytdFormatted": "81.32%",
+  "ytd": 84.05,
+  "ytdFormatted": "84.05%",
   "positionCount": 17,
   "tickers": [
     "AMZN",
@@ -57,7 +57,7 @@
     {
       "ticker": "SIVE.ST",
       "name": "Sivers Semiconductors AB",
-      "investedPct": 7.16
+      "investedPct": 7.4
     },
     {
       "ticker": "CGNX",

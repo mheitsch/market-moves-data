@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-10-27T10:10:23.309Z
-YTD: 81.32%
+Generated: 2026-10-28T10:56:24.973Z
+YTD: 84.05%
 Positions: 17
 
 | Ticker | Name | Invested % |
@@ -12,7 +12,7 @@ Positions: 17
 | ETH | Ethereum | 9.91 |
 | IOVA | Iovance Biotherapeutics Inc. | 9.47 |
 | CRDO | Credo Technology Group Holding Ltd | 8.33 |
-| SIVE.ST | Sivers Semiconductors AB | 7.16 |
+| SIVE.ST | Sivers Semiconductors AB | 7.4 |
 | CGNX | Cognex Corp | 5.85 |
 | PSNL | Personalis Inc | 5.31 |
 | SNDK | Sandisk Corp/DE | 4.22 |
