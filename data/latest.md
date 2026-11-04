@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-11-03T12:34:33.927Z
-YTD: 68.94%
+Generated: 2026-11-04T12:44:29.285Z
+YTD: 64.02%
 Positions: 17
 
 | Ticker | Name | Invested % |
@@ -9,14 +9,14 @@ Positions: 17
 | AMZN | Amazon.com Inc | 11.21 |
 | CEVA | Ceva Inc. | 10.65 |
 | NFLX | Netflix, Inc. | 10.14 |
-| ETH | Ethereum | 9.91 |
+| ETH | Ethereum | 9.93 |
 | IOVA | Iovance Biotherapeutics Inc. | 9.47 |
 | CRDO | Credo Technology Group Holding Ltd | 8.33 |
 | SIVE.ST | Sivers Semiconductors AB | 7.4 |
 | CGNX | Cognex Corp | 5.85 |
 | PSNL | Personalis Inc | 5.31 |
 | SNDK | Sandisk Corp/DE | 4.22 |
-| AMD | Advanced Micro Devices Inc | 4.08 |
+| AMD | Advanced Micro Devices Inc | 4.07 |
 | ABBN.ZU | ABB LTD | 2.58 |
 | WDC | Western Digital Corporation | 2.41 |
 | TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.16 |

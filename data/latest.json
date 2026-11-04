@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-03T12:34:33.927Z",
+  "generatedAt": "2026-11-04T12:44:29.285Z",
   "username": "MrMagoon",
-  "ytd": 68.94,
-  "ytdFormatted": "68.94%",
+  "ytd": 64.02,
+  "ytdFormatted": "64.02%",
   "positionCount": 17,
   "tickers": [
     "AMZN",
@@ -42,7 +42,7 @@
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.91
+      "investedPct": 9.93
     },
     {
       "ticker": "IOVA",
@@ -77,7 +77,7 @@
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "investedPct": 4.08
+      "investedPct": 4.07
     },
     {
       "ticker": "ABBN.ZU",
