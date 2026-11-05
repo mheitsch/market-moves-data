@@ -1,28 +1,28 @@
 # eToro snapshot
 
-Generated: 2026-11-04T12:44:29.285Z
+Generated: 2026-11-05T12:53:56.235Z
 YTD: 64.02%
 Positions: 17
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| AMZN | Amazon.com Inc | 11.21 |
-| CEVA | Ceva Inc. | 10.65 |
-| NFLX | Netflix, Inc. | 10.14 |
-| ETH | Ethereum | 9.93 |
-| IOVA | Iovance Biotherapeutics Inc. | 9.47 |
-| CRDO | Credo Technology Group Holding Ltd | 8.33 |
-| SIVE.ST | Sivers Semiconductors AB | 7.4 |
-| CGNX | Cognex Corp | 5.85 |
-| PSNL | Personalis Inc | 5.31 |
-| SNDK | Sandisk Corp/DE | 4.22 |
-| AMD | Advanced Micro Devices Inc | 4.07 |
-| ABBN.ZU | ABB LTD | 2.58 |
-| WDC | Western Digital Corporation | 2.41 |
-| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.16 |
-| MU | Micron Technology, Inc. | 2.01 |
-| AVGO | Broadcom Inc | 0.87 |
-| NVDA | NVIDIA Corporation | 0.45 |
+| AMZN | Amazon.com Inc | 10.88 |
+| CEVA | Ceva Inc. | 10.34 |
+| NFLX | Netflix, Inc. | 9.84 |
+| ETH | Ethereum | 9.63 |
+| IOVA | Iovance Biotherapeutics Inc. | 9.19 |
+| CRDO | Credo Technology Group Holding Ltd | 8.09 |
+| SIVE.ST | Sivers Semiconductors AB | 7.19 |
+| CGNX | Cognex Corp | 5.68 |
+| PSNL | Personalis Inc | 5.15 |
+| SNDK | Sandisk Corp/DE | 4.1 |
+| AMD | Advanced Micro Devices Inc | 3.96 |
+| ABBN.ZU | ABB LTD | 2.51 |
+| WDC | Western Digital Corporation | 2.34 |
+| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.1 |
+| MU | Micron Technology, Inc. | 1.95 |
+| AVGO | Broadcom Inc | 0.85 |
+| NVDA | NVIDIA Corporation | 0.44 |
 
 ## Endpoint status
 

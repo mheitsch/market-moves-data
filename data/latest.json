@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T12:44:29.285Z",
+  "generatedAt": "2026-11-05T12:53:56.235Z",
   "username": "MrMagoon",
   "ytd": 64.02,
   "ytdFormatted": "64.02%",
@@ -27,87 +27,87 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 11.21
+      "investedPct": 10.88
     },
     {
       "ticker": "CEVA",
       "name": "Ceva Inc.",
-      "investedPct": 10.65
+      "investedPct": 10.34
     },
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 10.14
+      "investedPct": 9.84
     },
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.93
+      "investedPct": 9.63
     },
     {
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics Inc.",
-      "investedPct": 9.47
+      "investedPct": 9.19
     },
     {
       "ticker": "CRDO",
       "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 8.33
+      "investedPct": 8.09
     },
     {
       "ticker": "SIVE.ST",
       "name": "Sivers Semiconductors AB",
-      "investedPct": 7.4
+      "investedPct": 7.19
     },
     {
       "ticker": "CGNX",
       "name": "Cognex Corp",
-      "investedPct": 5.85
+      "investedPct": 5.68
     },
     {
       "ticker": "PSNL",
       "name": "Personalis Inc",
-      "investedPct": 5.31
+      "investedPct": 5.15
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corp/DE",
-      "investedPct": 4.22
+      "investedPct": 4.1
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "investedPct": 4.07
+      "investedPct": 3.96
     },
     {
       "ticker": "ABBN.ZU",
       "name": "ABB LTD",
-      "investedPct": 2.58
+      "investedPct": 2.51
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "investedPct": 2.41
+      "investedPct": 2.34
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
-      "investedPct": 2.16
+      "investedPct": 2.1
     },
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "investedPct": 2.01
+      "investedPct": 1.95
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc",
-      "investedPct": 0.87
+      "investedPct": 0.85
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "investedPct": 0.45
+      "investedPct": 0.44
     }
   ],
   "diagnostics": {
