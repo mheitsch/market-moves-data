@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-05T12:53:56.235Z",
+  "generatedAt": "2026-11-06T12:40:33.848Z",
   "username": "MrMagoon",
-  "ytd": 64.02,
-  "ytdFormatted": "64.02%",
+  "ytd": 44.84,
+  "ytdFormatted": "44.84%",
   "positionCount": 17,
   "tickers": [
     "AMZN",
@@ -72,7 +72,7 @@
     {
       "ticker": "SNDK",
       "name": "Sandisk Corp/DE",
-      "investedPct": 4.1
+      "investedPct": 4.39
     },
     {
       "ticker": "AMD",

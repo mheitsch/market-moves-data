@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-11-05T12:53:56.235Z
-YTD: 64.02%
+Generated: 2026-11-06T12:40:33.848Z
+YTD: 44.84%
 Positions: 17
 
 | Ticker | Name | Invested % |
@@ -15,7 +15,7 @@ Positions: 17
 | SIVE.ST | Sivers Semiconductors AB | 7.19 |
 | CGNX | Cognex Corp | 5.68 |
 | PSNL | Personalis Inc | 5.15 |
-| SNDK | Sandisk Corp/DE | 4.1 |
+| SNDK | Sandisk Corp/DE | 4.39 |
 | AMD | Advanced Micro Devices Inc | 3.96 |
 | ABBN.ZU | ABB LTD | 2.51 |
 | WDC | Western Digital Corporation | 2.34 |
