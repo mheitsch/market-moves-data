@@ -1,28 +1,27 @@
 # eToro snapshot
 
-Generated: 2026-11-06T12:40:33.848Z
+Generated: 2026-11-07T11:27:09.060Z
 YTD: 44.84%
-Positions: 17
+Positions: 16
 
 | Ticker | Name | Invested % |
 |---|---|---|
-| AMZN | Amazon.com Inc | 10.88 |
-| CEVA | Ceva Inc. | 10.34 |
-| NFLX | Netflix, Inc. | 9.84 |
-| ETH | Ethereum | 9.63 |
-| IOVA | Iovance Biotherapeutics Inc. | 9.19 |
-| CRDO | Credo Technology Group Holding Ltd | 8.09 |
-| SIVE.ST | Sivers Semiconductors AB | 7.19 |
-| CGNX | Cognex Corp | 5.68 |
-| PSNL | Personalis Inc | 5.15 |
-| SNDK | Sandisk Corp/DE | 4.39 |
-| AMD | Advanced Micro Devices Inc | 3.96 |
-| ABBN.ZU | ABB LTD | 2.51 |
-| WDC | Western Digital Corporation | 2.34 |
-| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.1 |
-| MU | Micron Technology, Inc. | 1.95 |
-| AVGO | Broadcom Inc | 0.85 |
-| NVDA | NVIDIA Corporation | 0.44 |
+| AMZN | Amazon.com Inc | 10.77 |
+| CEVA | Ceva Inc. | 10.46 |
+| NFLX | Netflix, Inc. | 9.74 |
+| ETH | Ethereum | 9.53 |
+| IOVA | Iovance Biotherapeutics Inc. | 9.1 |
+| CRDO | Credo Technology Group Holding Ltd | 8.41 |
+| SIVE.ST | Sivers Semiconductors AB | 7.11 |
+| CGNX | Cognex Corp | 5.85 |
+| PSNL | Personalis Inc | 5.1 |
+| SNDK | Sandisk Corp/DE | 4.35 |
+| AMD | Advanced Micro Devices Inc | 4.15 |
+| ABBN.ZU | ABB LTD | 2.48 |
+| TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.07 |
+| MU | Micron Technology, Inc. | 1.93 |
+| AVGO | Broadcom Inc | 0.84 |
+| NVDA | NVIDIA Corporation | 0.43 |
 
 ## Endpoint status
 
@@ -30,4 +29,4 @@ Positions: 17
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
-- `symbolsResolved` -> 17/17
+- `symbolsResolved` -> 16/16
