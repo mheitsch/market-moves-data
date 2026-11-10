@@ -1,24 +1,26 @@
 {
-  "generatedAt": "2026-11-09T13:33:43.769Z",
+  "generatedAt": "2026-11-10T13:12:29.029Z",
   "username": "MrMagoon",
-  "ytd": 49.59,
-  "ytdFormatted": "49.59%",
-  "positionCount": 16,
+  "ytd": 53.63,
+  "ytdFormatted": "53.63%",
+  "positionCount": 18,
   "tickers": [
     "AMZN",
-    "CEVA",
     "NFLX",
     "ETH",
-    "IOVA",
-    "CRDO",
-    "SIVE.ST",
-    "CGNX",
-    "PSNL",
+    "ONC",
+    "LLY",
+    "SOFI",
     "SNDK",
+    "CRDO",
     "AMD",
-    "ABBN.ZU",
+    "SEZL",
+    "GLBE",
     "TSM",
     "MU",
+    "KNSA",
+    "PLMR",
+    "YOU",
     "AVGO",
     "NVDA"
   ],
@@ -26,82 +28,92 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 10.77
-    },
-    {
-      "ticker": "CEVA",
-      "name": "Ceva Inc.",
-      "investedPct": 10.46
+      "investedPct": 11.24
     },
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 9.74
+      "investedPct": 10.16
     },
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 9.53
+      "investedPct": 9.95
     },
     {
-      "ticker": "IOVA",
-      "name": "Iovance Biotherapeutics Inc.",
-      "investedPct": 9.1
+      "ticker": "ONC",
+      "name": "BeiGene Ltd-ADR",
+      "investedPct": 6.04
     },
     {
-      "ticker": "CRDO",
-      "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 8.41
+      "ticker": "LLY",
+      "name": "Eli Lilly & Co",
+      "investedPct": 4.83
     },
     {
-      "ticker": "SIVE.ST",
-      "name": "Sivers Semiconductors AB",
-      "investedPct": 7.11
-    },
-    {
-      "ticker": "CGNX",
-      "name": "Cognex Corp",
-      "investedPct": 5.85
-    },
-    {
-      "ticker": "PSNL",
-      "name": "Personalis Inc",
-      "investedPct": 5.1
+      "ticker": "SOFI",
+      "name": "SoFi Technologies Inc",
+      "investedPct": 4.59
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corp/DE",
+      "investedPct": 4.54
+    },
+    {
+      "ticker": "CRDO",
+      "name": "Credo Technology Group Holding Ltd",
       "investedPct": 4.35
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "investedPct": 4.15
+      "investedPct": 4.33
     },
     {
-      "ticker": "ABBN.ZU",
-      "name": "ABB LTD",
-      "investedPct": 2.48
+      "ticker": "SEZL",
+      "name": "Sezzle Inc",
+      "investedPct": 3.02
+    },
+    {
+      "ticker": "GLBE",
+      "name": "Global-E Online Ltd",
+      "investedPct": 2.42
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
-      "investedPct": 2.07
+      "investedPct": 2.16
     },
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "investedPct": 1.93
+      "investedPct": 2.02
+    },
+    {
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals Ltd",
+      "investedPct": 1.81
+    },
+    {
+      "ticker": "PLMR",
+      "name": "Palomar Holdings Inc",
+      "investedPct": 1.81
+    },
+    {
+      "ticker": "YOU",
+      "name": "Clear Secure Inc",
+      "investedPct": 1.51
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc",
-      "investedPct": 0.84
+      "investedPct": 0.87
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "investedPct": 0.43
+      "investedPct": 0.45
     }
   ],
   "diagnostics": {
@@ -109,6 +121,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "16/16"
+    "symbolsResolved": "18/18"
   }
 }
