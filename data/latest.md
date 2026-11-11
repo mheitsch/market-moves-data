@@ -1,6 +1,6 @@
 # eToro snapshot
 
-Generated: 2026-11-10T13:12:29.029Z
+Generated: 2026-11-11T12:22:34.687Z
 YTD: 53.63%
 Positions: 18
 
@@ -19,8 +19,8 @@ Positions: 18
 | GLBE | Global-E Online Ltd | 2.42 |
 | TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 2.16 |
 | MU | Micron Technology, Inc. | 2.02 |
-| KNSA | Kiniksa Pharmaceuticals Ltd | 1.81 |
 | PLMR | Palomar Holdings Inc | 1.81 |
+| KNSA | Kiniksa Pharmaceuticals Ltd | 1.81 |
 | YOU | Clear Secure Inc | 1.51 |
 | AVGO | Broadcom Inc | 0.87 |
 | NVDA | NVIDIA Corporation | 0.45 |

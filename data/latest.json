@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T13:12:29.029Z",
+  "generatedAt": "2026-11-11T12:22:34.687Z",
   "username": "MrMagoon",
   "ytd": 53.63,
   "ytdFormatted": "53.63%",
@@ -18,8 +18,8 @@
     "GLBE",
     "TSM",
     "MU",
-    "KNSA",
     "PLMR",
+    "KNSA",
     "YOU",
     "AVGO",
     "NVDA"
@@ -91,13 +91,13 @@
       "investedPct": 2.02
     },
     {
-      "ticker": "KNSA",
-      "name": "Kiniksa Pharmaceuticals Ltd",
+      "ticker": "PLMR",
+      "name": "Palomar Holdings Inc",
       "investedPct": 1.81
     },
     {
-      "ticker": "PLMR",
-      "name": "Palomar Holdings Inc",
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals Ltd",
       "investedPct": 1.81
     },
     {
