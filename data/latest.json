@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T12:48:19.835Z",
+  "generatedAt": "2026-11-14T11:54:40.476Z",
   "username": "MrMagoon",
-  "ytd": 57.95,
-  "ytdFormatted": "57.95%",
+  "ytd": 52.57,
+  "ytdFormatted": "52.57%",
   "positionCount": 18,
   "tickers": [
     "AMZN",
@@ -20,9 +20,9 @@
     "MU",
     "PLMR",
     "KNSA",
+    "NVDA",
     "YOU",
-    "AVGO",
-    "NVDA"
+    "AVGO"
   ],
   "positions": [
     {
@@ -101,6 +101,11 @@
       "investedPct": 1.81
     },
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "investedPct": 1.66
+    },
+    {
       "ticker": "YOU",
       "name": "Clear Secure Inc",
       "investedPct": 1.51
@@ -109,11 +114,6 @@
       "ticker": "AVGO",
       "name": "Broadcom Inc",
       "investedPct": 0.87
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "investedPct": 0.45
     }
   ],
   "diagnostics": {

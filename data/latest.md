@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-11-13T12:48:19.835Z
-YTD: 57.95%
+Generated: 2026-11-14T11:54:40.476Z
+YTD: 52.57%
 Positions: 18
 
 | Ticker | Name | Invested % |
@@ -21,9 +21,9 @@ Positions: 18
 | MU | Micron Technology, Inc. | 2.02 |
 | PLMR | Palomar Holdings Inc | 1.81 |
 | KNSA | Kiniksa Pharmaceuticals Ltd | 1.81 |
+| NVDA | NVIDIA Corporation | 1.66 |
 | YOU | Clear Secure Inc | 1.51 |
 | AVGO | Broadcom Inc | 0.87 |
-| NVDA | NVIDIA Corporation | 0.45 |
 
 ## Endpoint status
 
