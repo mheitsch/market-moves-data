@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-19T14:04:31.851Z",
+  "generatedAt": "2026-11-20T13:47:10.885Z",
   "username": "MrMagoon",
-  "ytd": 46.42,
-  "ytdFormatted": "46.42%",
-  "positionCount": 17,
+  "ytd": 40.95,
+  "ytdFormatted": "40.95%",
+  "positionCount": 16,
   "tickers": [
     "AMZN",
     "NFLX",
@@ -14,7 +14,6 @@
     "CRDO",
     "AMD",
     "SEZL",
-    "GLBE",
     "TSM",
     "MU",
     "KNSA",
@@ -27,82 +26,77 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 11.3
+      "investedPct": 11.35
     },
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 10.21
+      "investedPct": 10.26
     },
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 10
+      "investedPct": 10.05
     },
     {
       "ticker": "ONC",
       "name": "BeiGene Ltd-ADR",
-      "investedPct": 6.07
+      "investedPct": 6.1
     },
     {
       "ticker": "LLY",
       "name": "Eli Lilly & Co",
-      "investedPct": 4.86
+      "investedPct": 4.88
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corp/DE",
-      "investedPct": 4.56
+      "investedPct": 4.58
     },
     {
       "ticker": "CRDO",
       "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 4.38
+      "investedPct": 4.4
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "investedPct": 4.35
+      "investedPct": 4.37
     },
     {
       "ticker": "SEZL",
       "name": "Sezzle Inc",
-      "investedPct": 3.04
-    },
-    {
-      "ticker": "GLBE",
-      "name": "Global-E Online Ltd",
-      "investedPct": 2.43
+      "investedPct": 3.05
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
-      "investedPct": 2.18
+      "investedPct": 2.19
     },
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "investedPct": 2.03
+      "investedPct": 2.04
     },
     {
       "ticker": "KNSA",
       "name": "Kiniksa Pharmaceuticals Ltd",
-      "investedPct": 1.82
+      "investedPct": 1.83
     },
     {
       "ticker": "PLMR",
       "name": "Palomar Holdings Inc",
-      "investedPct": 1.82
+      "investedPct": 1.83
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "investedPct": 1.67
+      "investedPct": 1.68
     },
     {
       "ticker": "YOU",
       "name": "Clear Secure Inc",
-      "investedPct": 1.52
+      "investedPct": 1.53
     },
     {
       "ticker": "AVGO",
@@ -115,6 +109,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "17/17"
+    "symbolsResolved": "16/16"
   }
 }
