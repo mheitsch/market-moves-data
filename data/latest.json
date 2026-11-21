@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-20T13:47:10.885Z",
+  "generatedAt": "2026-11-21T13:12:30.131Z",
   "username": "MrMagoon",
-  "ytd": 40.95,
-  "ytdFormatted": "40.95%",
-  "positionCount": 16,
+  "ytd": 31.25,
+  "ytdFormatted": "31.25%",
+  "positionCount": 17,
   "tickers": [
     "AMZN",
     "NFLX",
@@ -14,59 +14,65 @@
     "CRDO",
     "AMD",
     "SEZL",
+    "APP",
     "TSM",
     "MU",
     "KNSA",
     "PLMR",
-    "NVDA",
     "YOU",
-    "AVGO"
+    "AVGO",
+    "NVDA"
   ],
   "positions": [
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 11.35
+      "investedPct": 11.37
     },
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "investedPct": 10.26
+      "investedPct": 10.29
     },
     {
       "ticker": "ETH",
       "name": "Ethereum",
-      "investedPct": 10.05
+      "investedPct": 10.07
     },
     {
       "ticker": "ONC",
       "name": "BeiGene Ltd-ADR",
-      "investedPct": 6.1
+      "investedPct": 6.11
     },
     {
       "ticker": "LLY",
       "name": "Eli Lilly & Co",
-      "investedPct": 4.88
+      "investedPct": 4.89
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corp/DE",
-      "investedPct": 4.58
+      "investedPct": 4.59
     },
     {
       "ticker": "CRDO",
       "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 4.4
+      "investedPct": 4.41
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "investedPct": 4.37
+      "investedPct": 4.38
     },
     {
       "ticker": "SEZL",
       "name": "Sezzle Inc",
-      "investedPct": 3.05
+      "investedPct": 3.06
+    },
+    {
+      "ticker": "APP",
+      "name": "Applovin Corp",
+      "investedPct": 2.45
     },
     {
       "ticker": "TSM",
@@ -81,17 +87,12 @@
     {
       "ticker": "KNSA",
       "name": "Kiniksa Pharmaceuticals Ltd",
-      "investedPct": 1.83
+      "investedPct": 1.84
     },
     {
       "ticker": "PLMR",
       "name": "Palomar Holdings Inc",
-      "investedPct": 1.83
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "investedPct": 1.68
+      "investedPct": 1.84
     },
     {
       "ticker": "YOU",
@@ -102,6 +103,11 @@
       "ticker": "AVGO",
       "name": "Broadcom Inc",
       "investedPct": 0.88
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "investedPct": 0.46
     }
   ],
   "diagnostics": {
@@ -109,6 +115,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "16/16"
+    "symbolsResolved": "17/17"
   }
 }
