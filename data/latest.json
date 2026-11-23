@@ -1,25 +1,31 @@
 {
-  "generatedAt": "2026-11-22T13:01:06.989Z",
+  "generatedAt": "2026-11-23T15:37:52.674Z",
   "username": "MrMagoon",
-  "ytd": 31.57,
-  "ytdFormatted": "31.57%",
-  "positionCount": 17,
+  "ytd": 31.79,
+  "ytdFormatted": "31.79%",
+  "positionCount": 23,
   "tickers": [
     "AMZN",
-    "NFLX",
-    "ETH",
     "ONC",
+    "PLMR",
     "LLY",
-    "SNDK",
-    "CRDO",
+    "ETH",
+    "NFLX",
+    "KNSA",
     "AMD",
     "SEZL",
+    "CAKE.US",
     "APP",
-    "TSM",
-    "MU",
-    "KNSA",
-    "PLMR",
+    "GCT",
     "YOU",
+    "TSM",
+    "SNDK",
+    "PCOR",
+    "MU",
+    "ELF",
+    "VEON",
+    "EXEL",
+    "REGN",
     "AVGO",
     "NVDA"
   ],
@@ -27,87 +33,117 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "investedPct": 11.37
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix, Inc.",
-      "investedPct": 10.29
-    },
-    {
-      "ticker": "ETH",
-      "name": "Ethereum",
-      "investedPct": 10.07
+      "investedPct": 9.97
     },
     {
       "ticker": "ONC",
       "name": "BeiGene Ltd-ADR",
-      "investedPct": 6.11
-    },
-    {
-      "ticker": "LLY",
-      "name": "Eli Lilly & Co",
-      "investedPct": 4.89
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corp/DE",
-      "investedPct": 4.59
-    },
-    {
-      "ticker": "CRDO",
-      "name": "Credo Technology Group Holding Ltd",
-      "investedPct": 4.41
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc",
-      "investedPct": 4.38
-    },
-    {
-      "ticker": "SEZL",
-      "name": "Sezzle Inc",
-      "investedPct": 3.06
-    },
-    {
-      "ticker": "APP",
-      "name": "Applovin Corp",
-      "investedPct": 2.45
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
-      "investedPct": 2.19
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology, Inc.",
-      "investedPct": 2.04
-    },
-    {
-      "ticker": "KNSA",
-      "name": "Kiniksa Pharmaceuticals Ltd",
-      "investedPct": 1.84
+      "investedPct": 7.22
     },
     {
       "ticker": "PLMR",
       "name": "Palomar Holdings Inc",
-      "investedPct": 1.84
+      "investedPct": 6.03
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly & Co",
+      "investedPct": 6.02
+    },
+    {
+      "ticker": "ETH",
+      "name": "Ethereum",
+      "investedPct": 5.52
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "investedPct": 4.7
+    },
+    {
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals Ltd",
+      "investedPct": 3.62
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc",
+      "investedPct": 3.34
+    },
+    {
+      "ticker": "SEZL",
+      "name": "Sezzle Inc",
+      "investedPct": 3.17
+    },
+    {
+      "ticker": "CAKE.US",
+      "name": "The Cheesecake Factory Inc",
+      "investedPct": 2.71
+    },
+    {
+      "ticker": "APP",
+      "name": "Applovin Corp",
+      "investedPct": 2.41
+    },
+    {
+      "ticker": "GCT",
+      "name": "GigaCloud Technology Inc",
+      "investedPct": 2.41
     },
     {
       "ticker": "YOU",
       "name": "Clear Secure Inc",
-      "investedPct": 1.53
+      "investedPct": 2.11
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
+      "investedPct": 1.92
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corp/DE",
+      "investedPct": 1.91
+    },
+    {
+      "ticker": "PCOR",
+      "name": "Procore Technologies Inc.",
+      "investedPct": 1.81
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "investedPct": 1.81
+    },
+    {
+      "ticker": "ELF",
+      "name": "elf Beauty Inc",
+      "investedPct": 1.81
+    },
+    {
+      "ticker": "VEON",
+      "name": "VEON Ltd",
+      "investedPct": 1.81
+    },
+    {
+      "ticker": "EXEL",
+      "name": "Exelixis Inc",
+      "investedPct": 1.27
+    },
+    {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals Inc",
+      "investedPct": 0.75
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc",
-      "investedPct": 0.88
+      "investedPct": 0.72
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "investedPct": 0.46
+      "investedPct": 0.45
     }
   ],
   "diagnostics": {
@@ -115,6 +151,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "17/17"
+    "symbolsResolved": "23/23"
   }
 }
