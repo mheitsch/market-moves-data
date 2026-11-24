@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-11-23T15:37:52.674Z
-YTD: 31.79%
+Generated: 2026-11-24T15:28:54.179Z
+YTD: 39.20%
 Positions: 23
 
 | Ticker | Name | Invested % |
@@ -12,21 +12,21 @@ Positions: 23
 | LLY | Eli Lilly & Co | 6.02 |
 | ETH | Ethereum | 5.52 |
 | NFLX | Netflix, Inc. | 4.7 |
-| KNSA | Kiniksa Pharmaceuticals Ltd | 3.62 |
+| KNSA | Kiniksa Pharmaceuticals Ltd | 3.98 |
 | AMD | Advanced Micro Devices Inc | 3.34 |
 | SEZL | Sezzle Inc | 3.17 |
-| CAKE.US | The Cheesecake Factory Inc | 2.71 |
-| APP | Applovin Corp | 2.41 |
-| GCT | GigaCloud Technology Inc | 2.41 |
-| YOU | Clear Secure Inc | 2.11 |
+| CAKE.US | The Cheesecake Factory Inc | 2.95 |
+| REGN | Regeneron Pharmaceuticals Inc | 2.68 |
+| APP | Applovin Corp | 2.65 |
+| GCT | GigaCloud Technology Inc | 2.65 |
+| YOU | Clear Secure Inc | 2.29 |
+| VEON | VEON Ltd | 2.23 |
+| PCOR | Procore Technologies Inc. | 2.23 |
+| ELF | elf Beauty Inc | 1.99 |
 | TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 1.92 |
 | SNDK | Sandisk Corp/DE | 1.91 |
-| PCOR | Procore Technologies Inc. | 1.81 |
 | MU | Micron Technology, Inc. | 1.81 |
-| ELF | elf Beauty Inc | 1.81 |
-| VEON | VEON Ltd | 1.81 |
-| EXEL | Exelixis Inc | 1.27 |
-| REGN | Regeneron Pharmaceuticals Inc | 0.75 |
+| EXEL | Exelixis Inc | 1.39 |
 | AVGO | Broadcom Inc | 0.72 |
 | NVDA | NVIDIA Corporation | 0.45 |
 

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T15:37:52.674Z",
+  "generatedAt": "2026-11-24T15:28:54.179Z",
   "username": "MrMagoon",
-  "ytd": 31.79,
-  "ytdFormatted": "31.79%",
+  "ytd": 39.2,
+  "ytdFormatted": "39.20%",
   "positionCount": 23,
   "tickers": [
     "AMZN",
@@ -15,17 +15,17 @@
     "AMD",
     "SEZL",
     "CAKE.US",
+    "REGN",
     "APP",
     "GCT",
     "YOU",
+    "VEON",
+    "PCOR",
+    "ELF",
     "TSM",
     "SNDK",
-    "PCOR",
     "MU",
-    "ELF",
-    "VEON",
     "EXEL",
-    "REGN",
     "AVGO",
     "NVDA"
   ],
@@ -63,7 +63,7 @@
     {
       "ticker": "KNSA",
       "name": "Kiniksa Pharmaceuticals Ltd",
-      "investedPct": 3.62
+      "investedPct": 3.98
     },
     {
       "ticker": "AMD",
@@ -78,22 +78,42 @@
     {
       "ticker": "CAKE.US",
       "name": "The Cheesecake Factory Inc",
-      "investedPct": 2.71
+      "investedPct": 2.95
+    },
+    {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals Inc",
+      "investedPct": 2.68
     },
     {
       "ticker": "APP",
       "name": "Applovin Corp",
-      "investedPct": 2.41
+      "investedPct": 2.65
     },
     {
       "ticker": "GCT",
       "name": "GigaCloud Technology Inc",
-      "investedPct": 2.41
+      "investedPct": 2.65
     },
     {
       "ticker": "YOU",
       "name": "Clear Secure Inc",
-      "investedPct": 2.11
+      "investedPct": 2.29
+    },
+    {
+      "ticker": "VEON",
+      "name": "VEON Ltd",
+      "investedPct": 2.23
+    },
+    {
+      "ticker": "PCOR",
+      "name": "Procore Technologies Inc.",
+      "investedPct": 2.23
+    },
+    {
+      "ticker": "ELF",
+      "name": "elf Beauty Inc",
+      "investedPct": 1.99
     },
     {
       "ticker": "TSM",
@@ -106,34 +126,14 @@
       "investedPct": 1.91
     },
     {
-      "ticker": "PCOR",
-      "name": "Procore Technologies Inc.",
-      "investedPct": 1.81
-    },
-    {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
       "investedPct": 1.81
     },
     {
-      "ticker": "ELF",
-      "name": "elf Beauty Inc",
-      "investedPct": 1.81
-    },
-    {
-      "ticker": "VEON",
-      "name": "VEON Ltd",
-      "investedPct": 1.81
-    },
-    {
       "ticker": "EXEL",
       "name": "Exelixis Inc",
-      "investedPct": 1.27
-    },
-    {
-      "ticker": "REGN",
-      "name": "Regeneron Pharmaceuticals Inc",
-      "investedPct": 0.75
+      "investedPct": 1.39
     },
     {
       "ticker": "AVGO",
