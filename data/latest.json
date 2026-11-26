@@ -1,31 +1,32 @@
 {
-  "generatedAt": "2026-11-25T15:14:57.207Z",
+  "generatedAt": "2026-11-26T14:40:26.463Z",
   "username": "MrMagoon",
-  "ytd": 35.33,
-  "ytdFormatted": "35.33%",
-  "positionCount": 23,
+  "ytd": 34.66,
+  "ytdFormatted": "34.66%",
+  "positionCount": 24,
   "tickers": [
     "AMZN",
     "ONC",
     "PLMR",
     "LLY",
     "ETH",
+    "REGN",
     "NFLX",
     "KNSA",
     "AMD",
     "SEZL",
     "CAKE.US",
-    "REGN",
-    "APP",
     "GCT",
-    "YOU",
-    "VEON",
     "PCOR",
+    "VEON",
+    "APP",
+    "EXEL",
+    "YOU",
     "ELF",
     "TSM",
     "SNDK",
     "MU",
-    "EXEL",
+    "CPAY",
     "AVGO",
     "NVDA"
   ],
@@ -56,6 +57,11 @@
       "investedPct": 5.52
     },
     {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals Inc",
+      "investedPct": 5.05
+    },
+    {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
       "investedPct": 4.7
@@ -63,7 +69,7 @@
     {
       "ticker": "KNSA",
       "name": "Kiniksa Pharmaceuticals Ltd",
-      "investedPct": 3.98
+      "investedPct": 4.46
     },
     {
       "ticker": "AMD",
@@ -81,9 +87,19 @@
       "investedPct": 2.95
     },
     {
-      "ticker": "REGN",
-      "name": "Regeneron Pharmaceuticals Inc",
-      "investedPct": 2.68
+      "ticker": "GCT",
+      "name": "GigaCloud Technology Inc",
+      "investedPct": 2.95
+    },
+    {
+      "ticker": "PCOR",
+      "name": "Procore Technologies Inc.",
+      "investedPct": 2.95
+    },
+    {
+      "ticker": "VEON",
+      "name": "VEON Ltd",
+      "investedPct": 2.83
     },
     {
       "ticker": "APP",
@@ -91,29 +107,19 @@
       "investedPct": 2.65
     },
     {
-      "ticker": "GCT",
-      "name": "GigaCloud Technology Inc",
-      "investedPct": 2.65
+      "ticker": "EXEL",
+      "name": "Exelixis Inc",
+      "investedPct": 2.59
     },
     {
       "ticker": "YOU",
       "name": "Clear Secure Inc",
-      "investedPct": 2.29
-    },
-    {
-      "ticker": "VEON",
-      "name": "VEON Ltd",
-      "investedPct": 2.23
-    },
-    {
-      "ticker": "PCOR",
-      "name": "Procore Technologies Inc.",
-      "investedPct": 2.23
+      "investedPct": 2.47
     },
     {
       "ticker": "ELF",
       "name": "elf Beauty Inc",
-      "investedPct": 1.99
+      "investedPct": 2.17
     },
     {
       "ticker": "TSM",
@@ -131,9 +137,9 @@
       "investedPct": 1.81
     },
     {
-      "ticker": "EXEL",
-      "name": "Exelixis Inc",
-      "investedPct": 1.39
+      "ticker": "CPAY",
+      "name": "Corpay Inc",
+      "investedPct": 1.81
     },
     {
       "ticker": "AVGO",
@@ -151,6 +157,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "23/23"
+    "symbolsResolved": "24/24"
   }
 }

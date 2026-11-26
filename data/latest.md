@@ -1,8 +1,8 @@
 # eToro snapshot
 
-Generated: 2026-11-25T15:14:57.207Z
-YTD: 35.33%
-Positions: 23
+Generated: 2026-11-26T14:40:26.463Z
+YTD: 34.66%
+Positions: 24
 
 | Ticker | Name | Invested % |
 |---|---|---|
@@ -11,22 +11,23 @@ Positions: 23
 | PLMR | Palomar Holdings Inc | 6.03 |
 | LLY | Eli Lilly & Co | 6.02 |
 | ETH | Ethereum | 5.52 |
+| REGN | Regeneron Pharmaceuticals Inc | 5.05 |
 | NFLX | Netflix, Inc. | 4.7 |
-| KNSA | Kiniksa Pharmaceuticals Ltd | 3.98 |
+| KNSA | Kiniksa Pharmaceuticals Ltd | 4.46 |
 | AMD | Advanced Micro Devices Inc | 3.34 |
 | SEZL | Sezzle Inc | 3.17 |
 | CAKE.US | The Cheesecake Factory Inc | 2.95 |
-| REGN | Regeneron Pharmaceuticals Inc | 2.68 |
+| GCT | GigaCloud Technology Inc | 2.95 |
+| PCOR | Procore Technologies Inc. | 2.95 |
+| VEON | VEON Ltd | 2.83 |
 | APP | Applovin Corp | 2.65 |
-| GCT | GigaCloud Technology Inc | 2.65 |
-| YOU | Clear Secure Inc | 2.29 |
-| VEON | VEON Ltd | 2.23 |
-| PCOR | Procore Technologies Inc. | 2.23 |
-| ELF | elf Beauty Inc | 1.99 |
+| EXEL | Exelixis Inc | 2.59 |
+| YOU | Clear Secure Inc | 2.47 |
+| ELF | elf Beauty Inc | 2.17 |
 | TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 1.92 |
 | SNDK | Sandisk Corp/DE | 1.91 |
 | MU | Micron Technology, Inc. | 1.81 |
-| EXEL | Exelixis Inc | 1.39 |
+| CPAY | Corpay Inc | 1.81 |
 | AVGO | Broadcom Inc | 0.72 |
 | NVDA | NVIDIA Corporation | 0.45 |
 
@@ -36,4 +37,4 @@ Positions: 23
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
-- `symbolsResolved` -> 23/23
+- `symbolsResolved` -> 24/24
