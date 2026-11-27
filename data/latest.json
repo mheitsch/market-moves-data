@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-26T14:40:26.463Z",
+  "generatedAt": "2026-11-27T14:38:05.153Z",
   "username": "MrMagoon",
-  "ytd": 34.66,
-  "ytdFormatted": "34.66%",
-  "positionCount": 24,
+  "ytd": 35.37,
+  "ytdFormatted": "35.37%",
+  "positionCount": 25,
   "tickers": [
     "AMZN",
     "ONC",
@@ -16,8 +16,8 @@
     "AMD",
     "SEZL",
     "CAKE.US",
-    "GCT",
     "PCOR",
+    "GCT",
     "VEON",
     "APP",
     "EXEL",
@@ -27,6 +27,7 @@
     "SNDK",
     "MU",
     "CPAY",
+    "GOOGL",
     "AVGO",
     "NVDA"
   ],
@@ -87,13 +88,13 @@
       "investedPct": 2.95
     },
     {
-      "ticker": "GCT",
-      "name": "GigaCloud Technology Inc",
+      "ticker": "PCOR",
+      "name": "Procore Technologies Inc.",
       "investedPct": 2.95
     },
     {
-      "ticker": "PCOR",
-      "name": "Procore Technologies Inc.",
+      "ticker": "GCT",
+      "name": "GigaCloud Technology Inc",
       "investedPct": 2.95
     },
     {
@@ -142,6 +143,11 @@
       "investedPct": 1.81
     },
     {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc Class A",
+      "investedPct": 1.81
+    },
+    {
       "ticker": "AVGO",
       "name": "Broadcom Inc",
       "investedPct": 0.72
@@ -157,6 +163,6 @@
     "/user-info/people/MrMagoon/portfolio/live": 200,
     "/market-data/instruments": 200,
     "symbolSerialization": "comma",
-    "symbolsResolved": "24/24"
+    "symbolsResolved": "25/25"
   }
 }

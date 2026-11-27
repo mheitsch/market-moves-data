@@ -1,8 +1,8 @@
 # eToro snapshot
 
-Generated: 2026-11-26T14:40:26.463Z
-YTD: 34.66%
-Positions: 24
+Generated: 2026-11-27T14:38:05.153Z
+YTD: 35.37%
+Positions: 25
 
 | Ticker | Name | Invested % |
 |---|---|---|
@@ -17,8 +17,8 @@ Positions: 24
 | AMD | Advanced Micro Devices Inc | 3.34 |
 | SEZL | Sezzle Inc | 3.17 |
 | CAKE.US | The Cheesecake Factory Inc | 2.95 |
-| GCT | GigaCloud Technology Inc | 2.95 |
 | PCOR | Procore Technologies Inc. | 2.95 |
+| GCT | GigaCloud Technology Inc | 2.95 |
 | VEON | VEON Ltd | 2.83 |
 | APP | Applovin Corp | 2.65 |
 | EXEL | Exelixis Inc | 2.59 |
@@ -28,6 +28,7 @@ Positions: 24
 | SNDK | Sandisk Corp/DE | 1.91 |
 | MU | Micron Technology, Inc. | 1.81 |
 | CPAY | Corpay Inc | 1.81 |
+| GOOGL | Alphabet Inc Class A | 1.81 |
 | AVGO | Broadcom Inc | 0.72 |
 | NVDA | NVIDIA Corporation | 0.45 |
 
@@ -37,4 +38,4 @@ Positions: 24
 - `/user-info/people/MrMagoon/portfolio/live` -> 200
 - `/market-data/instruments` -> 200
 - `symbolSerialization` -> comma
-- `symbolsResolved` -> 24/24
+- `symbolsResolved` -> 25/25
