@@ -1,7 +1,7 @@
 # eToro snapshot
 
-Generated: 2026-11-27T14:38:05.153Z
-YTD: 35.37%
+Generated: 2026-11-28T13:49:56.848Z
+YTD: 38.75%
 Positions: 25
 
 | Ticker | Name | Invested % |
@@ -16,8 +16,8 @@ Positions: 25
 | KNSA | Kiniksa Pharmaceuticals Ltd | 4.46 |
 | AMD | Advanced Micro Devices Inc | 3.34 |
 | SEZL | Sezzle Inc | 3.17 |
-| CAKE.US | The Cheesecake Factory Inc | 2.95 |
 | PCOR | Procore Technologies Inc. | 2.95 |
+| CAKE.US | The Cheesecake Factory Inc | 2.95 |
 | GCT | GigaCloud Technology Inc | 2.95 |
 | VEON | VEON Ltd | 2.83 |
 | APP | Applovin Corp | 2.65 |
@@ -27,8 +27,8 @@ Positions: 25
 | TSM | Taiwan Semiconductor Manufacturing Co Ltd - ADR | 1.92 |
 | SNDK | Sandisk Corp/DE | 1.91 |
 | MU | Micron Technology, Inc. | 1.81 |
-| CPAY | Corpay Inc | 1.81 |
 | GOOGL | Alphabet Inc Class A | 1.81 |
+| CPAY | Corpay Inc | 1.81 |
 | AVGO | Broadcom Inc | 0.72 |
 | NVDA | NVIDIA Corporation | 0.45 |
 

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-27T14:38:05.153Z",
+  "generatedAt": "2026-11-28T13:49:56.848Z",
   "username": "MrMagoon",
-  "ytd": 35.37,
-  "ytdFormatted": "35.37%",
+  "ytd": 38.75,
+  "ytdFormatted": "38.75%",
   "positionCount": 25,
   "tickers": [
     "AMZN",
@@ -15,8 +15,8 @@
     "KNSA",
     "AMD",
     "SEZL",
-    "CAKE.US",
     "PCOR",
+    "CAKE.US",
     "GCT",
     "VEON",
     "APP",
@@ -26,8 +26,8 @@
     "TSM",
     "SNDK",
     "MU",
-    "CPAY",
     "GOOGL",
+    "CPAY",
     "AVGO",
     "NVDA"
   ],
@@ -83,13 +83,13 @@
       "investedPct": 3.17
     },
     {
-      "ticker": "CAKE.US",
-      "name": "The Cheesecake Factory Inc",
+      "ticker": "PCOR",
+      "name": "Procore Technologies Inc.",
       "investedPct": 2.95
     },
     {
-      "ticker": "PCOR",
-      "name": "Procore Technologies Inc.",
+      "ticker": "CAKE.US",
+      "name": "The Cheesecake Factory Inc",
       "investedPct": 2.95
     },
     {
@@ -138,13 +138,13 @@
       "investedPct": 1.81
     },
     {
-      "ticker": "CPAY",
-      "name": "Corpay Inc",
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc Class A",
       "investedPct": 1.81
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc Class A",
+      "ticker": "CPAY",
+      "name": "Corpay Inc",
       "investedPct": 1.81
     },
     {
